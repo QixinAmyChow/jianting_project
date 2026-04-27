@@ -1,0 +1,26 @@
+# Claude Code local config
+.claude/settings.local.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+env/
+*.egg-info/
+
+# Bioinformatics data
+*.bam
+*.bai
+*.fastq
+*.fastq.gz
+*.fq.gz
+*.sam
+*.vcf.gz
+*.h5
+*.h5ad
+data/
+results/
+ref/
+
+# OS
+.DS_Store
