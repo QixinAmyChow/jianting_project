@@ -1,0 +1,1575 @@
+Installing SingleCellExperiment + slingshot via BiocManager...
+Bioconductor version 3.22 (BiocManager 1.30.27), R 4.5.3 (2026-03-11)
+Installing package(s) 'SingleCellExperiment', 'slingshot'
+also installing the dependencies ‘XVector’, ‘MatrixGenerics’, ‘Biobase’, ‘IRanges’, ‘Seqinfo’, ‘S4Arrays’, ‘SparseArray’, ‘SummarizedExperiment’, ‘S4Vectors’, ‘BiocGenerics’, ‘GenomicRanges’, ‘DelayedArray’, ‘princurve’, ‘TrajectoryUtils’
+
+trying URL 'https://bioconductor.org/packages/3.22/bioc/src/contrib/XVector_0.50.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.22/bioc/src/contrib/MatrixGenerics_1.22.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.22/bioc/src/contrib/Biobase_2.70.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.22/bioc/src/contrib/IRanges_2.44.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.22/bioc/src/contrib/Seqinfo_1.0.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.22/bioc/src/contrib/S4Arrays_1.10.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.22/bioc/src/contrib/SparseArray_1.10.10.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.22/bioc/src/contrib/SummarizedExperiment_1.40.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.22/bioc/src/contrib/S4Vectors_0.48.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.22/bioc/src/contrib/BiocGenerics_0.56.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.22/bioc/src/contrib/GenomicRanges_1.62.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.22/bioc/src/contrib/DelayedArray_0.36.1.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/princurve_2.1.6.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.22/bioc/src/contrib/TrajectoryUtils_1.18.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.22/bioc/src/contrib/SingleCellExperiment_1.32.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.22/bioc/src/contrib/slingshot_2.18.0.tar.gz'
+* installing *source* package ‘MatrixGenerics’ ...
+** this is package ‘MatrixGenerics’ version ‘1.22.0’
+** package ‘MatrixGenerics’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a new generic function for ‘rowAlls’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colAlls’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowAnyNAs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colAnyNAs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowAnys’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colAnys’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowAvgsPerColSet’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colAvgsPerRowSet’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowCollapse’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colCollapse’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowCounts’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colCounts’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowCummaxs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colCummaxs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowCummins’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colCummins’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowCumprods’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colCumprods’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowCumsums’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colCumsums’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowDiffs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colDiffs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowIQRDiffs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colIQRDiffs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowIQRs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colIQRs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowLogSumExps’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colLogSumExps’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowMadDiffs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colMadDiffs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowMads’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colMads’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowMaxs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colMaxs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowMeans2’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colMeans2’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowMedians’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colMedians’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowMins’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colMins’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowOrderStats’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colOrderStats’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowProds’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colProds’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowQuantiles’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colQuantiles’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowRanges’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colRanges’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowRanks’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colRanks’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowSdDiffs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colSdDiffs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowSds’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colSds’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowSums2’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colSums2’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowTabulates’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colTabulates’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowVarDiffs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colVarDiffs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowVars’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colVars’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowWeightedMads’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colWeightedMads’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowWeightedMeans’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colWeightedMeans’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowWeightedMedians’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colWeightedMedians’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowWeightedSds’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colWeightedSds’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowWeightedVars’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colWeightedVars’ in package ‘MatrixGenerics’
+** help
+*** installing help indices
+  converting help for package ‘MatrixGenerics’
+    finding HTML links ... done
+    MatrixGenerics-package                  html  
+    internal-helpers                        html  
+    rowAlls                                 html  
+    rowAnyNAs                               html  
+    rowAnys                                 html  
+    rowAvgsPerColSet                        html  
+    rowCollapse                             html  
+    rowCounts                               html  
+    rowCummaxs                              html  
+    rowCummins                              html  
+    rowCumprods                             html  
+    rowCumsums                              html  
+    rowDiffs                                html  
+    rowIQRDiffs                             html  
+    rowIQRs                                 html  
+    rowLogSumExps                           html  
+    rowMadDiffs                             html  
+    rowMads                                 html  
+    rowMaxs                                 html  
+    rowMeans                                html  
+    rowMeans2                               html  
+    rowMedians                              html  
+    rowMins                                 html  
+    rowOrderStats                           html  
+    rowProds                                html  
+    rowQuantiles                            html  
+    rowRanges                               html  
+    rowRanks                                html  
+    rowSdDiffs                              html  
+    rowSds                                  html  
+    rowSums                                 html  
+    rowSums2                                html  
+    rowTabulates                            html  
+    rowVarDiffs                             html  
+    rowVars                                 html  
+    rowWeightedMads                         html  
+    rowWeightedMeans                        html  
+    rowWeightedMedians                      html  
+    rowWeightedSds                          html  
+    rowWeightedVars                         html  
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (MatrixGenerics)
+* installing *source* package ‘BiocGenerics’ ...
+** this is package ‘BiocGenerics’ version ‘0.56.0’
+** package ‘BiocGenerics’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a new generic function for ‘aperm’ in package ‘BiocGenerics’
+Creating a new generic function for ‘append’ in package ‘BiocGenerics’
+Creating a new generic function for ‘as.data.frame’ in package ‘BiocGenerics’
+Creating a new generic function for ‘cbind’ in package ‘BiocGenerics’
+Creating a new generic function for ‘rbind’ in package ‘BiocGenerics’
+Creating a new generic function for ‘do.call’ in package ‘BiocGenerics’
+Creating a new generic function for ‘duplicated’ in package ‘BiocGenerics’
+Creating a new generic function for ‘anyDuplicated’ in package ‘BiocGenerics’
+Creating a new generic function for ‘eval’ in package ‘BiocGenerics’
+Creating a new generic function for ‘pmax’ in package ‘BiocGenerics’
+Creating a new generic function for ‘pmin’ in package ‘BiocGenerics’
+Creating a new generic function for ‘pmax.int’ in package ‘BiocGenerics’
+Creating a new generic function for ‘pmin.int’ in package ‘BiocGenerics’
+Creating a new generic function for ‘Reduce’ in package ‘BiocGenerics’
+Creating a new generic function for ‘Filter’ in package ‘BiocGenerics’
+Creating a new generic function for ‘Find’ in package ‘BiocGenerics’
+Creating a new generic function for ‘Map’ in package ‘BiocGenerics’
+Creating a new generic function for ‘Position’ in package ‘BiocGenerics’
+Creating a new generic function for ‘get’ in package ‘BiocGenerics’
+Creating a new generic function for ‘mget’ in package ‘BiocGenerics’
+Creating a new generic function for ‘grep’ in package ‘BiocGenerics’
+Creating a new generic function for ‘grepl’ in package ‘BiocGenerics’
+Creating a new generic function for ‘is.unsorted’ in package ‘BiocGenerics’
+Creating a new generic function for ‘lapply’ in package ‘BiocGenerics’
+Creating a new generic function for ‘sapply’ in package ‘BiocGenerics’
+Creating a new generic function for ‘mapply’ in package ‘BiocGenerics’
+Creating a new generic function for ‘match’ in package ‘BiocGenerics’
+Creating a new generic function for ‘order’ in package ‘BiocGenerics’
+Creating a new generic function for ‘paste’ in package ‘BiocGenerics’
+Creating a new generic function for ‘rank’ in package ‘BiocGenerics’
+Creating a new generic function for ‘rownames’ in package ‘BiocGenerics’
+Creating a new generic function for ‘colnames’ in package ‘BiocGenerics’
+Creating a new generic function for ‘saveRDS’ in package ‘BiocGenerics’
+Creating a new generic function for ‘table’ in package ‘BiocGenerics’
+Creating a new generic function for ‘tapply’ in package ‘BiocGenerics’
+Creating a new generic function for ‘unique’ in package ‘BiocGenerics’
+Creating a new generic function for ‘unsplit’ in package ‘BiocGenerics’
+Creating a new generic function for ‘which.min’ in package ‘BiocGenerics’
+Creating a new generic function for ‘which.max’ in package ‘BiocGenerics’
+Creating a new generic function for ‘IQR’ in package ‘BiocGenerics’
+Creating a new generic function for ‘mad’ in package ‘BiocGenerics’
+Creating a new generic function for ‘var’ in package ‘BiocGenerics’
+Creating a new generic function for ‘sd’ in package ‘BiocGenerics’
+Creating a new generic function for ‘xtabs’ in package ‘BiocGenerics’
+Creating a new generic function for ‘basename’ in package ‘BiocGenerics’
+Creating a new generic function for ‘dirname’ in package ‘BiocGenerics’
+** help
+*** installing help indices
+  converting help for package ‘BiocGenerics’
+    finding HTML links ... done
+    BiocGenerics-package                    html  
+    Extremes                                html  
+    IQR                                     html  
+    Ontology                                html  
+    S3-classes-as-S4-classes                html  
+    annotation                              html  
+    aperm                                   html  
+    append                                  html  
+    as.data.frame                           html  
+    as.list                                 html  
+    as.vector                               html  
+    boxplot                                 html  
+    cbind                                   html  
+    combine                                 html  
+    containsOutOfMemoryData                 html  
+    dbconn                                  html  
+    density                                 html  
+    dge                                     html  
+    dims                                    html  
+    do.call                                 html  
+    duplicated                              html  
+    eval                                    html  
+    evalq                                   html  
+    fileName                                html  
+    format                                  html  
+    funprog                                 html  
+    get                                     html  
+    grep                                    html  
+    image                                   html  
+    is.unsorted                             html  
+    lapply                                  html  
+    longForm                                html  
+    mad                                     html  
+    mapply                                  html  
+    match                                   html  
+    mean                                    html  
+    normalize                               html  
+    nrow                                    html  
+    order                                   html  
+    organism_species                        html  
+    paste                                   html  
+    paste2                                  html  
+    path                                    html  
+    plotMA                                  html  
+    plotPCA                                 html  
+    rank                                    html  
+    relist                                  html  
+    rep                                     html  
+    residuals                               html  
+    row_colnames                            html  
+    saveRDS                                 html  
+    score                                   html  
+    setops                                  html  
+    sort                                    html  
+    start                                   html  
+    strand                                  html  
+    subset                                  html  
+    t                                       html  
+    table                                   html  
+    tapply                                  html  
+    testPackage                             html  
+    toTable                                 html  
+    type                                    html  
+    unique                                  html  
+    unlist                                  html  
+    unsplit                                 html  
+    updateObject                            html  
+    var                                     html  
+    weights                                 html  
+    which                                   html  
+    which.min                               html  
+    xtabs                                   html  
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (BiocGenerics)
+* installing *source* package ‘princurve’ ...
+** this is package ‘princurve’ version ‘2.1.6’
+** package ‘princurve’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (GCC) 11.5.0 20240719 (Red Hat 11.5.0-11)’
+g++ -std=gnu++17 -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/Rcpp/include' -I/usr/local/include    -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/Rcpp/include' -I/usr/local/include    -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection   -c project_to_curve.cpp -o project_to_curve.o
+g++ -std=gnu++17 -shared -L/usr/lib64/R/lib -Wl,-z,relro -Wl,--as-needed -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -o princurve.so RcppExports.o project_to_curve.o -L/usr/lib64/R/lib -lR
+installing to /home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/00LOCK-princurve/00new/princurve/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+  converting help for package ‘princurve’
+    finding HTML links ... done
+    deprecated                              html  
+    principal_curve                         html  
+    princurve-package                       html  
+    project_to_curve                        html  
+    smoother_functions                      html  
+    start_circle                            html  
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (princurve)
+* installing *source* package ‘Biobase’ ...
+** this is package ‘Biobase’ version ‘2.70.0’
+** package ‘Biobase’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (GCC) 11.5.0 20240719 (Red Hat 11.5.0-11)’
+gcc -I"/usr/include/R" -DNDEBUG   -I/usr/local/include    -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c Rinit.c -o Rinit.o
+gcc -I"/usr/include/R" -DNDEBUG   -I/usr/local/include    -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c envir.c -o envir.o
+gcc -I"/usr/include/R" -DNDEBUG   -I/usr/local/include    -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c matchpt.c -o matchpt.o
+gcc -I"/usr/include/R" -DNDEBUG   -I/usr/local/include    -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c rowMedians.c -o rowMedians.o
+gcc -I"/usr/include/R" -DNDEBUG   -I/usr/local/include    -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c sublist_extract.c -o sublist_extract.o
+gcc -shared -L/usr/lib64/R/lib -Wl,-z,relro -Wl,--as-needed -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -o Biobase.so Rinit.o envir.o matchpt.o rowMedians.o sublist_extract.o -L/usr/lib64/R/lib -lR
+installing to /home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/00LOCK-Biobase/00new/Biobase/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+  converting help for package ‘Biobase’
+    finding HTML links ... done
+    Aggregate                               html  
+    Biobase-package                         html  
+    ScalarObject-class                      html  
+    abstract                                html  
+    addVig2Menu                             html  
+    annotatedDataFrameFrom-methods          html  
+    anyMissing                              html  
+    assayData                               html  
+    cache                                   html  
+    channel                                 html  
+    channelNames                            html  
+    class.AnnotatedDataFrame                html  
+Rd warning: class.AnnotatedDataFrame.Rd:151: missing link ‘updateObject’
+    class.AssayData                         html  
+    class.ExpressionSet                     html  
+Rd warning: class.ExpressionSet.Rd:147: missing link ‘updateObject’
+Rd warning: class.ExpressionSet.Rd:174: missing link ‘updateObject’
+    class.MIAME                             html  
+Rd warning: class.MIAME.Rd:89: missing link ‘updateObject’
+    class.MIAxE                             html  
+    class.MultiSet                          html  
+Rd warning: class.MultiSet.Rd:72: missing link ‘updateObject’
+    class.NChannelSet                       html  
+Rd warning: class.NChannelSet.Rd:102: missing link ‘updateObject’
+    class.SnpSet                            html  
+Rd warning: class.SnpSet.Rd:88: missing link ‘updateObject’
+    class.Versioned                         html  
+    class.VersionedBiobase                  html  
+    class.Versions                          html  
+    class.VersionsNull                      html  
+    class.aggregator                        html  
+    class.characterORmiame                  html  
+    class.container                         html  
+    class.eSet                              html  
+Rd warning: class.eSet.Rd:224: missing link ‘updateObject’
+    classVersion                            html  
+    contents                                html  
+    copyEnv                                 html  
+    copySubstitute                          html  
+    createPackage                           html  
+    data.aaMap                              html  
+    data.geneData                           html  
+    data.reporter                           html  
+    data.sample.ExpressionSet               html  
+    data.sample.MultiSet                    html  
+    defunct                                 html  
+    description                             html  
+    dumpPackTxt                             html  
+    esApply                                 html  
+    exprs                                   html  
+    featureData                             html  
+    featureNames                            html  
+    getPkgVigs                              html  
+    internals                               html  
+    isCurrent                               html  
+    isUnique                                html  
+    isVersioned                             html  
+    lcSuffix                                html  
+    listLen                                 html  
+    makeDataPackage                         html  
+    matchpt                                 html  
+    multiassign                             html  
+    note                                    html  
+    notes                                   html  
+    openPDF                                 html  
+    openVignette                            html  
+    package.version                         html  
+    phenoData                               html  
+    protocolData                            html  
+    read.AnnotatedDataFrame                 html  
+    read.MIAME                              html  
+    readExpressionSet                       html  
+    reverseSplit                            html  
+    rowMedians                              html  
+    rowQ                                    html  
+    selectChannels                          html  
+    selectSome                              html  
+    snpCall                                 html  
+    storageMode                             html  
+    strbreak                                html  
+    subListExtract                          html  
+    testBioCConnection                      html  
+    updateObjectTo                          html  
+    updateOldESet                           html  
+    userQuery                               html  
+    validMsg                                html  
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (Biobase)
+* installing *source* package ‘S4Vectors’ ...
+** this is package ‘S4Vectors’ version ‘0.48.1’
+** package ‘S4Vectors’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (GCC) 11.5.0 20240719 (Red Hat 11.5.0-11)’
+gcc -I"/usr/include/R" -DNDEBUG   -I/usr/local/include    -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c AEbufs.c -o AEbufs.o
+gcc -I"/usr/include/R" -DNDEBUG   -I/usr/local/include    -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c DFrame_class.c -o DFrame_class.o
+gcc -I"/usr/include/R" -DNDEBUG   -I/usr/local/include    -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c Hits_class.c -o Hits_class.o
+In file included from /usr/include/string.h:535,
+                 from /usr/include/R/R_ext/RS.h:34,
+                 from /usr/include/R/Rdefines.h:38,
+                 from ../inst/include/S4Vectors_defines.h:18,
+                 from S4Vectors.h:1,
+                 from Hits_class.c:4:
+In function ‘memcpy’,
+    inlined from ‘qsort_hits’ at Hits_class.c:74:4:
+/usr/include/bits/string_fortified.h:29:10: warning: ‘memcpy’ specified bound between 18446744065119617024 and 18446744073709551612 exceeds maximum object size 9223372036854775807 [-Wstringop-overflow=]
+   29 |   return __builtin___memcpy_chk (__dest, __src, __len,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   30 |                                  __glibc_objsize0 (__dest));
+      |                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/R/Rdefines.h:41,
+                 from ../inst/include/S4Vectors_defines.h:18,
+                 from S4Vectors.h:1,
+                 from Hits_class.c:4:
+Hits_class.c: In function ‘Hits_new’:
+/usr/include/R/Rinternals.h:926:33: warning: ‘revmap’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  926 | #define defineVar               Rf_defineVar
+      |                                 ^~~~~~~~~~~~
+Hits_class.c:266:19: note: ‘revmap’ was declared here
+  266 |         SEXP ans, revmap, symbol;
+      |                   ^~~~~~
+Hits_class.c: In function ‘select_hits’:
+Hits_class.c:400:38: warning: ‘is_used’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  400 |                 if (nodup0 && is_used->elts[ans_elt - 1])
+      |                               ~~~~~~~^~~~~~
+gcc -I"/usr/include/R" -DNDEBUG   -I/usr/local/include    -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c LLint_class.c -o LLint_class.o
+gcc -I"/usr/include/R" -DNDEBUG   -I/usr/local/include    -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c List_class.c -o List_class.o
+gcc -I"/usr/include/R" -DNDEBUG   -I/usr/local/include    -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c R_init_S4Vectors.c -o R_init_S4Vectors.o
+gcc -I"/usr/include/R" -DNDEBUG   -I/usr/local/include    -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c Rle_class.c -o Rle_class.o
+gcc -I"/usr/include/R" -DNDEBUG   -I/usr/local/include    -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c Rle_utils.c -o Rle_utils.o
+gcc -I"/usr/include/R" -DNDEBUG   -I/usr/local/include    -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c SEXP_utils.c -o SEXP_utils.o
+gcc -I"/usr/include/R" -DNDEBUG   -I/usr/local/include    -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c SimpleList_class.c -o SimpleList_class.o
+gcc -I"/usr/include/R" -DNDEBUG   -I/usr/local/include    -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c character_utils.c -o character_utils.o
+gcc -I"/usr/include/R" -DNDEBUG   -I/usr/local/include    -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c eval_utils.c -o eval_utils.o
+gcc -I"/usr/include/R" -DNDEBUG   -I/usr/local/include    -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c hash_utils.c -o hash_utils.o
+gcc -I"/usr/include/R" -DNDEBUG   -I/usr/local/include    -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c integer_utils.c -o integer_utils.o
+gcc -I"/usr/include/R" -DNDEBUG   -I/usr/local/include    -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c logical_utils.c -o logical_utils.o
+gcc -I"/usr/include/R" -DNDEBUG   -I/usr/local/include    -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c map_ranges_to_runs.c -o map_ranges_to_runs.o
+gcc -I"/usr/include/R" -DNDEBUG   -I/usr/local/include    -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c raw_utils.c -o raw_utils.o
+gcc -I"/usr/include/R" -DNDEBUG   -I/usr/local/include    -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c safe_arithm.c -o safe_arithm.o
+gcc -I"/usr/include/R" -DNDEBUG   -I/usr/local/include    -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c sort_utils.c -o sort_utils.o
+sort_utils.c:267:13: warning: ‘sort_uchar_array’ defined but not used [-Wunused-function]
+  267 | static void sort_uchar_array(unsigned char *x, int nelt, int desc)
+      |             ^~~~~~~~~~~~~~~~
+gcc -I"/usr/include/R" -DNDEBUG   -I/usr/local/include    -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c subsetting_utils.c -o subsetting_utils.o
+gcc -I"/usr/include/R" -DNDEBUG   -I/usr/local/include    -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c vector_utils.c -o vector_utils.o
+gcc -shared -L/usr/lib64/R/lib -Wl,-z,relro -Wl,--as-needed -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -o S4Vectors.so AEbufs.o DFrame_class.o Hits_class.o LLint_class.o List_class.o R_init_S4Vectors.o Rle_class.o Rle_utils.o SEXP_utils.o SimpleList_class.o character_utils.o eval_utils.o hash_utils.o integer_utils.o logical_utils.o map_ranges_to_runs.o raw_utils.o safe_arithm.o sort_utils.o subsetting_utils.o vector_utils.o -L/usr/lib64/R/lib -lR
+lto-wrapper: warning: using serial compilation of 2 LTRANS jobs
+In function ‘memcpy’,
+    inlined from ‘qsort_hits’ at Hits_class.c:74:4:
+/usr/include/bits/string_fortified.h:29:10: warning: ‘__builtin_memcpy’ specified bound between 18446744065119617024 and 18446744073709551612 exceeds maximum object size 9223372036854775807 [-Wstringop-overflow=]
+   29 |   return __builtin___memcpy_chk (__dest, __src, __len,
+      |          ^
+installing to /home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/00LOCK-S4Vectors/00new/S4Vectors/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+in method for ‘normalizeSingleBracketReplacementValue’ with signature ‘"List"’: no definition for class “List”
+Creating a new generic function for ‘unname’ in package ‘S4Vectors’
+Creating a new generic function for ‘expand.grid’ in package ‘S4Vectors’
+Creating a new generic function for ‘findMatches’ in package ‘S4Vectors’
+in method for ‘coerce’ with signature ‘"Hits","DFrame"’: no definition for class “DFrame”
+Creating a generic function for ‘as.factor’ from package ‘base’ in package ‘S4Vectors’
+Creating a generic function for ‘tabulate’ from package ‘base’ in package ‘S4Vectors’
+Creating a generic function for ‘cov’ from package ‘stats’ in package ‘S4Vectors’
+Creating a generic function for ‘cor’ from package ‘stats’ in package ‘S4Vectors’
+Creating a generic function for ‘smoothEnds’ from package ‘stats’ in package ‘S4Vectors’
+Creating a generic function for ‘runmed’ from package ‘stats’ in package ‘S4Vectors’
+Creating a generic function for ‘nchar’ from package ‘base’ in package ‘S4Vectors’
+Creating a generic function for ‘substr’ from package ‘base’ in package ‘S4Vectors’
+Creating a generic function for ‘substring’ from package ‘base’ in package ‘S4Vectors’
+Creating a generic function for ‘chartr’ from package ‘base’ in package ‘S4Vectors’
+Creating a generic function for ‘tolower’ from package ‘base’ in package ‘S4Vectors’
+Creating a generic function for ‘toupper’ from package ‘base’ in package ‘S4Vectors’
+Creating a generic function for ‘sub’ from package ‘base’ in package ‘S4Vectors’
+Creating a generic function for ‘gsub’ from package ‘base’ in package ‘S4Vectors’
+Creating a generic function for ‘nlevels’ from package ‘base’ in package ‘S4Vectors’
+in method for ‘coerce’ with signature ‘"data.table","DFrame"’: no definition for class “data.table”
+Creating a generic function for ‘complete.cases’ from package ‘stats’ in package ‘S4Vectors’
+** help
+*** installing help indices
+  converting help for package ‘S4Vectors’
+    finding HTML links ... done
+    Annotated-class                         html  
+    DataFrame-class                         html  
+    DataFrame-combine                       html  
+    DataFrame-comparison                    html  
+    DataFrame-utils                         html  
+    DataFrameFactor-class                   html  
+    Factor-class                            html  
+    FilterMatrix-class                      html  
+    FilterRules-class                       html  
+    Hits-class                              html  
+    Hits-comparison                         html  
+    Hits-setops                             html  
+    HitsList-class                          html  
+    LLint-class                             html  
+    List-class                              html  
+    List-utils                              html  
+    Pairs-class                             html  
+    RectangularData-class                   html  
+    Rle-class                               html  
+    Rle-runstat                             html  
+    Rle-utils                               html  
+    S4Vectors-internals                     html  
+    SimpleList-class                        html  
+    TransposedDataFrame-class               html  
+    Vector-class                            html  
+    Vector-comparison                       html  
+    Vector-merge                            html  
+    Vector-setops                           html  
+    aggregate-methods                       html  
+    bindROWS                                html  
+    character-utils                         html  
+    expand-methods                          html  
+    integer-utils                           html  
+    isSorted                                html  
+    shiftApply-methods                      html  
+    show-utils                              html  
+    splitAsList                             html  
+    stack-methods                           html  
+    subsetting-utils                        html  
+    zip-methods                             html  
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (S4Vectors)
+* installing *source* package ‘IRanges’ ...
+** this is package ‘IRanges’ version ‘2.44.0’
+** package ‘IRanges’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (GCC) 11.5.0 20240719 (Red Hat 11.5.0-11)’
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I/usr/local/include   -fopenmp -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c CompressedAtomicList_utils.c -o CompressedAtomicList_utils.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I/usr/local/include   -fopenmp -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c CompressedIRangesList_class.c -o CompressedIRangesList_class.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I/usr/local/include   -fopenmp -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c CompressedList_class.c -o CompressedList_class.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I/usr/local/include   -fopenmp -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c Grouping_class.c -o Grouping_class.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I/usr/local/include   -fopenmp -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c IPosRanges_comparison.c -o IPosRanges_comparison.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I/usr/local/include   -fopenmp -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c IRanges_class.c -o IRanges_class.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I/usr/local/include   -fopenmp -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c IRanges_constructor.c -o IRanges_constructor.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I/usr/local/include   -fopenmp -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c NCList.c -o NCList.o
+NCList.c:1303:13: warning: ‘NCList_get_y_overlaps_rec’ defined but not used [-Wunused-function]
+ 1303 | static void NCList_get_y_overlaps_rec(const NCList *x_nclist,
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~
+NCList.c:203:22: warning: ‘next_top_down’ defined but not used [-Wunused-function]
+  203 | static const NCList *next_top_down(NCListWalkingStack *stack,
+      |                      ^~~~~~~~~~~~~
+NCList.c: In function ‘C_find_overlaps_in_groups_NCList’:
+NCList.c:1751:14: warning: ‘ans’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 1751 |         SEXP ans;
+      |              ^~~
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I/usr/local/include   -fopenmp -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c R_init_IRanges.c -o R_init_IRanges.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I/usr/local/include   -fopenmp -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c Ranges_class.c -o Ranges_class.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I/usr/local/include   -fopenmp -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c RleViews_summarization.c -o RleViews_summarization.o
+RleViews_summarization.c: In function ‘C_summarize_RleViews’:
+RleViews_summarization.c:325:54: warning: ‘max’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  325 |                         if (!max_is_initialized || v > max) {
+      |                                                    ~~^~~~~
+RleViews_summarization.c:316:21: note: ‘max’ was declared here
+  316 |                 int max;  /* uninitialized */
+      |                     ^~~
+RleViews_summarization.c:293:54: warning: ‘min’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  293 |                         if (!min_is_initialized || v < min) {
+      |                                                    ~~^~~~~
+RleViews_summarization.c:284:21: note: ‘min’ was declared here
+  284 |                 int min;  /* uninitialized */
+      |                     ^~~
+RleViews_summarization.c:67:54: warning: ‘max’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   67 |                         if (!max_is_initialized || v > max) {
+      |                                                    ~~^~~~~
+RleViews_summarization.c:54:21: note: ‘max’ was declared here
+   54 |                 int max;  /* uninitialized */
+      |                     ^~~
+RleViews_summarization.c:36:54: warning: ‘min’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   36 |                         if (!min_is_initialized || v < min) {
+      |                                                    ~~^~~~~
+RleViews_summarization.c:23:21: note: ‘min’ was declared here
+   23 |                 int min;  /* uninitialized */
+      |                     ^~~
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I/usr/local/include   -fopenmp -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c S4Vectors_stubs.c -o S4Vectors_stubs.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I/usr/local/include   -fopenmp -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c SimpleIRangesList_class.c -o SimpleIRangesList_class.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I/usr/local/include   -fopenmp -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c coverage_methods.c -o coverage_methods.o
+coverage_methods.c: In function ‘compute_coverage_from_IRanges_holder’:
+coverage_methods.c:579:35: warning: ‘x_end’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  579 |         if (*out_ranges_are_tiles && x_end != cvg_len)
+      |             ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+coverage_methods.c:495:28: note: ‘x_end’ was declared here
+  495 |             i, j, x_start, x_end, shift_elt, tmp;
+      |                            ^~~~~
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I/usr/local/include   -fopenmp -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c extractListFragments.c -o extractListFragments.o
+extractListFragments.c: In function ‘C_find_partition_overlaps’:
+extractListFragments.c:66:33: warning: ‘split_partitions_buf’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   66 |                                 IntAE_insert_at(split_partitions_buf,
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   67 |                                         IntAE_get_nelt(split_partitions_buf),
+      |                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   68 |                                         q_prev_end);
+      |                                         ~~~~~~~~~~~
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I/usr/local/include   -fopenmp -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c inter_range_methods.c -o inter_range_methods.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I/usr/local/include   -fopenmp -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c thread_control.c -o thread_control.o
+gcc -shared -L/usr/lib64/R/lib -Wl,-z,relro -Wl,--as-needed -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -o IRanges.so CompressedAtomicList_utils.o CompressedIRangesList_class.o CompressedList_class.o Grouping_class.o IPosRanges_comparison.o IRanges_class.o IRanges_constructor.o NCList.o R_init_IRanges.o Ranges_class.o RleViews_summarization.o S4Vectors_stubs.o SimpleIRangesList_class.o coverage_methods.o extractListFragments.o inter_range_methods.o thread_control.o -fopenmp -L/usr/lib64/R/lib -lR
+lto-wrapper: warning: using serial compilation of 2 LTRANS jobs
+installing to /home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/00LOCK-IRanges/00new/IRanges/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a generic function for ‘drop’ from package ‘base’ in package ‘IRanges’
+Creating a generic function for ‘runmed’ from package ‘stats’ in package ‘IRanges’
+Creating a generic function for ‘chartr’ from package ‘base’ in package ‘IRanges’
+Creating a generic function for ‘toupper’ from package ‘base’ in package ‘IRanges’
+Creating a generic function for ‘tolower’ from package ‘base’ in package ‘IRanges’
+Creating a generic function for ‘sub’ from package ‘base’ in package ‘IRanges’
+Creating a generic function for ‘gsub’ from package ‘base’ in package ‘IRanges’
+Creating a generic function for ‘startsWith’ from package ‘base’ in package ‘IRanges’
+Creating a generic function for ‘endsWith’ from package ‘base’ in package ‘IRanges’
+Creating a generic function for ‘smoothEnds’ from package ‘stats’ in package ‘IRanges’
+** help
+*** installing help indices
+  converting help for package ‘IRanges’
+    finding HTML links ... done
+    AtomicList-class                        html  
+Rd warning: AtomicList-class.Rd:176: missing link ‘List-class’
+    AtomicList-summarization                html  
+    AtomicList-utils                        html  
+Rd warning: AtomicList-utils.Rd:184: missing link ‘unstrsplit’
+    CompressedHitsList-class                html  
+Rd warning: CompressedHitsList-class.Rd:21: missing link ‘HitsList’
+Rd warning: CompressedHitsList-class.Rd:22: missing link ‘HitsList’
+Rd warning: CompressedHitsList-class.Rd:34: missing link ‘HitsList’
+    CompressedList-class                    html  
+Rd warning: CompressedList-class.Rd:82: missing link ‘List’
+Rd warning: CompressedList-class.Rd:145: missing link ‘List’
+    DataFrameList-class                     html  
+Rd warning: DataFrameList-class.Rd:137: missing link ‘DataFrame-class’
+Rd warning: DataFrameList-class.Rd:141: missing link ‘List-class’
+Rd warning: DataFrameList-class.Rd:267: missing link ‘DataFrame-class’
+    Grouping-class                          html  
+Rd warning: Grouping-class.Rd:235: missing link ‘List’
+    Hits-class-leftovers                    html  
+    IPos-class                              html  
+    IPosRanges-class                        html  
+    IPosRanges-comparison                   html  
+Rd warning: IPosRanges-comparison.Rd:209: missing link ‘Hits’
+    IRanges-class                           html  
+    IRanges-constructor                     html  
+    IRanges-internals                       html  
+    IRanges-utils                           html  
+    IRangesList-class                       html  
+    IntegerRanges-class                     html  
+    IntegerRangesList-class                 html  
+    MaskCollection-class                    html  
+    NCList-class                            html  
+Rd warning: NCList-class.Rd:112: missing link ‘Hits’
+    RangedSelection-class                   html  
+    Rle-class-leftovers                     html  
+    RleViews-class                          html  
+Rd warning: RleViews-class.Rd:24: missing link ‘Rle’
+Rd warning: RleViews-class.Rd:40: missing link ‘Rle-class’
+    RleViewsList-class                      html  
+    Vector-class-leftovers                  html  
+    Views-class                             html  
+Rd warning: Views-class.Rd:46: missing link ‘Vector’
+Rd warning: Views-class.Rd:154: missing link ‘Vector-class’
+    ViewsList-class                         html  
+Rd warning: ViewsList-class.Rd:20: missing link ‘List-class’
+Rd warning: ViewsList-class.Rd:30: missing link ‘List-class’
+Rd warning: ViewsList-class.Rd:31: missing link ‘List-class’
+Rd warning: ViewsList-class.Rd:39: missing link ‘List-class’
+    coverage-methods                        html  
+Rd warning: coverage-methods.Rd:65: missing link ‘Rle’
+Rd warning: coverage-methods.Rd:67: missing link ‘Rle’
+Rd warning: coverage-methods.Rd:134: missing link ‘Rle’
+Rd warning: coverage-methods.Rd:140: missing link ‘Rle’
+Rd warning: coverage-methods.Rd:152: missing link ‘Rle’
+Rd warning: coverage-methods.Rd:156: missing link ‘Rle’
+    extractList                             html  
+Rd warning: extractList.Rd:20: missing link ‘Vector’
+Rd warning: extractList.Rd:20: missing link ‘List’
+Rd warning: extractList.Rd:74: missing link ‘List’
+Rd warning: extractList.Rd:117: missing link ‘List’
+    extractListFragments                    html  
+Rd warning: extractListFragments.Rd:24: missing link ‘List’
+Rd warning: extractListFragments.Rd:28: missing link ‘List’
+    findOverlaps-methods                    html  
+    inter-range-methods                     html  
+    intra-range-methods                     html  
+Rd warning: intra-range-methods.Rd:98: missing link ‘RangesList’
+Rd warning: intra-range-methods.Rd:106: missing link ‘RangesList’
+Rd warning: intra-range-methods.Rd:127: missing link ‘RangesList’
+Rd warning: intra-range-methods.Rd:140: missing link ‘RangesList’
+Rd warning: intra-range-methods.Rd:150: missing link ‘RangesList’
+Rd warning: intra-range-methods.Rd:164: missing link ‘RangesList’
+Rd warning: intra-range-methods.Rd:196: missing link ‘RangesList’
+Rd warning: intra-range-methods.Rd:309: missing link ‘RangesList’
+    makeIRangesFromDataFrame                html  
+    multisplit                              html  
+    nearest-methods                         html  
+    range-squeezers                         html  
+    read.Mask                               html  
+    reverse-methods                         html  
+Rd warning: reverse-methods.Rd:49: missing link ‘revElements’
+    seqapply                                html  
+Rd warning: seqapply.Rd:10: missing link ‘List’
+Rd warning: seqapply.Rd:11: missing link ‘Vector’
+Rd warning: seqapply.Rd:21: missing link ‘List’
+    setops-methods                          html  
+    slice-methods                           html  
+Rd warning: slice-methods.Rd:31: missing link ‘Rle’
+Rd warning: slice-methods.Rd:57: missing link ‘Rle’
+Rd warning: slice-methods.Rd:79: missing link ‘Rle’
+    view-summarization-methods              html  
+Rd warning: view-summarization-methods.Rd:115: missing link ‘List’
+Rd warning: view-summarization-methods.Rd:134: missing link ‘Rle’
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (IRanges)
+* installing *source* package ‘XVector’ ...
+** this is package ‘XVector’ version ‘0.50.0’
+** package ‘XVector’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (GCC) 11.5.0 20240719 (Red Hat 11.5.0-11)’
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I/usr/local/include    -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c IRanges_stubs.c -o IRanges_stubs.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I/usr/local/include    -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c Ocopy_byteblocks.c -o Ocopy_byteblocks.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I/usr/local/include    -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c RDS_random_access.c -o RDS_random_access.o
+RDS_random_access.c: In function ‘RDS_extract_subarray’:
+RDS_random_access.c:796:25: warning: unused variable ‘ans’ [-Wunused-variable]
+  796 |         SEXP subscript, ans;
+      |                         ^~~
+RDS_random_access.c:793:18: warning: variable ‘x_type’ set but not used [-Wunused-but-set-variable]
+  793 |         SEXPTYPE x_type;
+      |                  ^~~~~~
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I/usr/local/include    -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c R_init_XVector.c -o R_init_XVector.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I/usr/local/include    -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c S4Vectors_stubs.c -o S4Vectors_stubs.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I/usr/local/include    -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c SharedDouble_class.c -o SharedDouble_class.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I/usr/local/include    -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c SharedInteger_class.c -o SharedInteger_class.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I/usr/local/include    -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c SharedRaw_class.c -o SharedRaw_class.o
+SharedRaw_class.c: In function ‘SharedRaw_read_complexes_from_subscript’:
+SharedRaw_class.c:396:20: warning: variable ‘src_tag’ set but not used [-Wunused-but-set-variable]
+  396 |         SEXP dest, src_tag;
+      |                    ^~~~~~~
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I/usr/local/include    -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c SharedVector_class.c -o SharedVector_class.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I/usr/local/include    -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c XDouble_class.c -o XDouble_class.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I/usr/local/include    -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c XInteger_class.c -o XInteger_class.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I/usr/local/include    -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c XRawList_comparison.c -o XRawList_comparison.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I/usr/local/include    -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c XRaw_class.c -o XRaw_class.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I/usr/local/include    -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c XVectorList_class.c -o XVectorList_class.o
+XVectorList_class.c: In function ‘_new_XRawList_from_CharAEAE’:
+XVectorList_class.c:459:17: warning: ‘lkup_length’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  459 |                 _Ocopy_bytes_to_i1i2_with_lkup(0, dest.length - 1,
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  460 |                         (char *) dest.ptr, dest.length,
+      |                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  461 |                         src->elts, CharAE_get_nelt(src),
+      |                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  462 |                         lkup0, lkup_length);
+      |                         ~~~~~~~~~~~~~~~~~~~
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I/usr/local/include    -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c XVector_class.c -o XVector_class.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I/usr/local/include    -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c io_utils.c -o io_utils.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I/usr/local/include    -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c slice_methods.c -o slice_methods.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I/usr/local/include    -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c vector_copy.c -o vector_copy.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I/usr/local/include    -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c view_summarization_methods.c -o view_summarization_methods.o
+view_summarization_methods.c: In function ‘get_which_min_from_Ints_holder’:
+view_summarization_methods.c:219:45: warning: ‘cur_min’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  219 |                 if (which_min == NA_INTEGER || x < cur_min) {
+      |                     ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+view_summarization_methods.c: In function ‘get_which_min_from_Doubles_holder’:
+view_summarization_methods.c:246:45: warning: ‘cur_min’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  246 |                 if (which_min == NA_INTEGER || x < cur_min) {
+      |                     ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+view_summarization_methods.c: In function ‘get_which_max_from_Ints_holder’:
+view_summarization_methods.c:269:45: warning: ‘cur_max’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  269 |                 if (which_max == NA_INTEGER || x > cur_max) {
+      |                     ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+view_summarization_methods.c: In function ‘get_which_max_from_Doubles_holder’:
+view_summarization_methods.c:296:45: warning: ‘cur_max’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  296 |                 if (which_max == NA_INTEGER || x > cur_max) {
+      |                     ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+gcc -shared -L/usr/lib64/R/lib -Wl,-z,relro -Wl,--as-needed -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -o XVector.so IRanges_stubs.o Ocopy_byteblocks.o RDS_random_access.o R_init_XVector.o S4Vectors_stubs.o SharedDouble_class.o SharedInteger_class.o SharedRaw_class.o SharedVector_class.o XDouble_class.o XInteger_class.o XRawList_comparison.o XRaw_class.o XVectorList_class.o XVector_class.o io_utils.o slice_methods.o vector_copy.o view_summarization_methods.o -lz -L/usr/lib64/R/lib -lR
+installing to /home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/00LOCK-XVector/00new/XVector/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+  converting help for package ‘XVector’
+    finding HTML links ... done
+    OnDiskRaw-class                         html  
+    XDoubleViews-class                      html  
+    XIntegerViews-class                     html  
+    XRawList-class                          html  
+    XRawList-comparison                     html  
+    XVector-class                           html  
+    XVector-internals                       html  
+    XVectorList-class                       html  
+    compact-methods                         html  
+    intra-range-methods                     html  
+    reverse-methods                         html  
+    slice-methods                           html  
+    updateObject-methods                    html  
+    view-summarization-methods              html  
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (XVector)
+* installing *source* package ‘Seqinfo’ ...
+** this is package ‘Seqinfo’ version ‘1.0.0’
+** package ‘Seqinfo’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+  converting help for package ‘Seqinfo’
+    finding HTML links ... done
+    GenomeDescription-class                 html  
+    Seqinfo-class                           html  
+    rankSeqlevels                           html  
+    seqinfo                                 html  
+    seqlevelsInUse                          html  
+    sortSeqlevels                           html  
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (Seqinfo)
+* installing *source* package ‘S4Arrays’ ...
+** this is package ‘S4Arrays’ version ‘1.10.1’
+** package ‘S4Arrays’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (GCC) 11.5.0 20240719 (Red Hat 11.5.0-11)’
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I/usr/local/include    -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c R_init_S4Arrays.c -o R_init_S4Arrays.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I/usr/local/include    -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c S4Vectors_stubs.c -o S4Vectors_stubs.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I/usr/local/include    -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c abind.c -o abind.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I/usr/local/include    -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c array_selection.c -o array_selection.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I/usr/local/include    -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c dim_tuning_utils.c -o dim_tuning_utils.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I/usr/local/include    -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c rowsum.c -o rowsum.o
+gcc -shared -L/usr/lib64/R/lib -Wl,-z,relro -Wl,--as-needed -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -o S4Arrays.so R_init_S4Arrays.o S4Vectors_stubs.o abind.o array_selection.o dim_tuning_utils.o rowsum.o -L/usr/lib64/R/lib -lR
+installing to /home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/00LOCK-S4Arrays/00new/S4Arrays/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a new generic function for ‘rowsum’ in package ‘S4Arrays’
+Creating a new generic function for ‘abind’ in package ‘S4Arrays’
+** help
+*** installing help indices
+  converting help for package ‘S4Arrays’
+    finding HTML links ... done
+    Array-class                             html  
+    Array-kronecker-methods                 html  
+    Array-subassignment                     html  
+    Array-subsetting                        html  
+    ArrayGrid-class                         html  
+    abind                                   html  
+    aperm2                                  html  
+    arep                                    html  
+    array_recycling                         html  
+    array_selection                         html  
+    dim-tuning-utils                        html  
+    extract_array                           html  
+Rd warning: extract_array.Rd:62: missing link ‘dgCMatrix-class’
+    is_sparse                               html  
+Rd warning: is_sparse.Rd:23: missing link ‘dgCMatrix-class’
+Rd warning: is_sparse.Rd:38: missing link ‘dgCMatrix-class’
+Rd warning: is_sparse.Rd:56: missing link ‘dgCMatrix-class’
+    mapToGrid                               html  
+    read_block                              html  
+Rd warning: read_block.Rd:31: missing link ‘dgCMatrix-class’
+Rd warning: read_block.Rd:125: missing link ‘dgCMatrix-class’
+Rd warning: read_block.Rd:125: missing link ‘lgCMatrix-class’
+    rowsum                                  html  
+    type                                    html  
+Rd warning: type.Rd:24: missing link ‘dgCMatrix-class’
+    write_block                             html  
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (S4Arrays)
+* installing *source* package ‘SparseArray’ ...
+** this is package ‘SparseArray’ version ‘1.10.10’
+** package ‘SparseArray’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (GCC) 11.5.0 20240719 (Red Hat 11.5.0-11)’
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/XVector/include' -I/usr/local/include   -fopenmp -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c ExtendableJaggedArray.c -o ExtendableJaggedArray.o
+ExtendableJaggedArray.c: In function ‘_move_ExtendableJaggedArrays_to_SVT’:
+ExtendableJaggedArray.c:125:25: warning: ‘nzoffs_p’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  125 |                         free(nzoffs_p);
+      |                         ^~~~~~~~~~~~~~
+ExtendableJaggedArray.c:129:25: warning: ‘nzvals_p’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  129 |                         free(nzvals_p);
+      |                         ^~~~~~~~~~~~~~
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/XVector/include' -I/usr/local/include   -fopenmp -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c IRanges_stubs.c -o IRanges_stubs.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/XVector/include' -I/usr/local/include   -fopenmp -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c OPBufTree.c -o OPBufTree.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/XVector/include' -I/usr/local/include   -fopenmp -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c R_init_SparseArray.c -o R_init_SparseArray.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/XVector/include' -I/usr/local/include   -fopenmp -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c Rvector_summarization.c -o Rvector_summarization.o
+Rvector_summarization.c:1370:12: warning: ‘count_NA_list_elts’ defined but not used [-Wunused-function]
+ 1370 | static int count_NA_list_elts(SEXP x)
+      |            ^~~~~~~~~~~~~~~~~~
+Rvector_summarization.c:1360:12: warning: ‘any_NA_list_elt’ defined but not used [-Wunused-function]
+ 1360 | static int any_NA_list_elt(SEXP x)
+      |            ^~~~~~~~~~~~~~~
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/XVector/include' -I/usr/local/include   -fopenmp -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c Rvector_utils.c -o Rvector_utils.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/XVector/include' -I/usr/local/include   -fopenmp -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c S4Vectors_stubs.c -o S4Vectors_stubs.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/XVector/include' -I/usr/local/include   -fopenmp -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c SBT_utils.c -o SBT_utils.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/XVector/include' -I/usr/local/include   -fopenmp -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c SVT_SparseArray_class.c -o SVT_SparseArray_class.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/XVector/include' -I/usr/local/include   -fopenmp -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c SparseArray_Arith_methods.c -o SparseArray_Arith_methods.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/XVector/include' -I/usr/local/include   -fopenmp -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c SparseArray_Compare_methods.c -o SparseArray_Compare_methods.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/XVector/include' -I/usr/local/include   -fopenmp -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c SparseArray_Complex_methods.c -o SparseArray_Complex_methods.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/XVector/include' -I/usr/local/include   -fopenmp -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c SparseArray_Logic_methods.c -o SparseArray_Logic_methods.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/XVector/include' -I/usr/local/include   -fopenmp -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c SparseArray_Math_methods.c -o SparseArray_Math_methods.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/XVector/include' -I/usr/local/include   -fopenmp -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c SparseArray_abind.c -o SparseArray_abind.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/XVector/include' -I/usr/local/include   -fopenmp -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c SparseArray_aperm.c -o SparseArray_aperm.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/XVector/include' -I/usr/local/include   -fopenmp -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c SparseArray_dim_tuning.c -o SparseArray_dim_tuning.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/XVector/include' -I/usr/local/include   -fopenmp -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c SparseArray_matrixStats.c -o SparseArray_matrixStats.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/XVector/include' -I/usr/local/include   -fopenmp -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c SparseArray_misc_methods.c -o SparseArray_misc_methods.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/XVector/include' -I/usr/local/include   -fopenmp -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c SparseArray_subassignment.c -o SparseArray_subassignment.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/XVector/include' -I/usr/local/include   -fopenmp -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c SparseArray_subsetting.c -o SparseArray_subsetting.o
+SparseArray_subsetting.c: In function ‘REC_subset_SVT_as_SVT’:
+SparseArray_subsetting.c:843:26: warning: comparison between pointer and integer
+  843 |                 if (offs != i2 || ans_elt != subSVT)
+      |                          ^~
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/XVector/include' -I/usr/local/include   -fopenmp -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c SparseArray_summarization.c -o SparseArray_summarization.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/XVector/include' -I/usr/local/include   -fopenmp -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c SparseMatrix_mult.c -o SparseMatrix_mult.o
+SparseMatrix_mult.c:346:13: warning: ‘crossprod2_doublemat_doubleSV’ defined but not used [-Wunused-function]
+  346 | static void crossprod2_doublemat_doubleSV(
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+SparseMatrix_mult.c:306:13: warning: ‘crossprod2_doubleSV_doublemat’ defined but not used [-Wunused-function]
+  306 | static void crossprod2_doubleSV_doublemat(
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/XVector/include' -I/usr/local/include   -fopenmp -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c SparseVec.c -o SparseVec.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/XVector/include' -I/usr/local/include   -fopenmp -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c SparseVec_Arith.c -o SparseVec_Arith.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/XVector/include' -I/usr/local/include   -fopenmp -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c SparseVec_Compare.c -o SparseVec_Compare.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/XVector/include' -I/usr/local/include   -fopenmp -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c SparseVec_Logic.c -o SparseVec_Logic.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/XVector/include' -I/usr/local/include   -fopenmp -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c SparseVec_Math.c -o SparseVec_Math.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/XVector/include' -I/usr/local/include   -fopenmp -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c SparseVec_dotprod.c -o SparseVec_dotprod.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/XVector/include' -I/usr/local/include   -fopenmp -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c SparseVec_subassignment.c -o SparseVec_subassignment.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/XVector/include' -I/usr/local/include   -fopenmp -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c SparseVec_subsetting.c -o SparseVec_subsetting.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/XVector/include' -I/usr/local/include   -fopenmp -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c XVector_stubs.c -o XVector_stubs.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/XVector/include' -I/usr/local/include   -fopenmp -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c argcheck_utils.c -o argcheck_utils.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/XVector/include' -I/usr/local/include   -fopenmp -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c coerceVector2.c -o coerceVector2.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/XVector/include' -I/usr/local/include   -fopenmp -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c leaf_utils.c -o leaf_utils.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/XVector/include' -I/usr/local/include   -fopenmp -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c misc_utils.c -o misc_utils.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/XVector/include' -I/usr/local/include   -fopenmp -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c randomSparseArray.c -o randomSparseArray.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/XVector/include' -I/usr/local/include   -fopenmp -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c readSparseCSV.c -o readSparseCSV.o
+readSparseCSV.c: In function ‘C_readSparseCSV_as_SVT_SparseMatrix’:
+readSparseCSV.c:248:25: warning: ‘nzoffs_buf’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  248 |                         load_csv_data_to_AEbufs(data, data_len, col_idx - 1,
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  249 |                                                 nzvals_buf, nzoffs_buf);
+      |                                                 ~~~~~~~~~~~~~~~~~~~~~~~
+readSparseCSV.c:296:29: note: ‘nzoffs_buf’ was declared here
+  296 |         IntAE *nzvals_buf, *nzoffs_buf;
+      |                             ^~~~~~~~~~
+readSparseCSV.c:248:25: warning: ‘nzvals_buf’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  248 |                         load_csv_data_to_AEbufs(data, data_len, col_idx - 1,
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  249 |                                                 nzvals_buf, nzoffs_buf);
+      |                                                 ~~~~~~~~~~~~~~~~~~~~~~~
+readSparseCSV.c:296:16: note: ‘nzvals_buf’ was declared here
+  296 |         IntAE *nzvals_buf, *nzoffs_buf;
+      |                ^~~~~~~~~~
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/XVector/include' -I/usr/local/include   -fopenmp -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c rowsum_methods.c -o rowsum_methods.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/XVector/include' -I/usr/local/include   -fopenmp -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c sparseMatrix_utils.c -o sparseMatrix_utils.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/XVector/include' -I/usr/local/include   -fopenmp -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c test.c -o test.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/XVector/include' -I/usr/local/include   -fopenmp -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c thread_control.c -o thread_control.o
+gcc -shared -L/usr/lib64/R/lib -Wl,-z,relro -Wl,--as-needed -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -o SparseArray.so ExtendableJaggedArray.o IRanges_stubs.o OPBufTree.o R_init_SparseArray.o Rvector_summarization.o Rvector_utils.o S4Vectors_stubs.o SBT_utils.o SVT_SparseArray_class.o SparseArray_Arith_methods.o SparseArray_Compare_methods.o SparseArray_Complex_methods.o SparseArray_Logic_methods.o SparseArray_Math_methods.o SparseArray_abind.o SparseArray_aperm.o SparseArray_dim_tuning.o SparseArray_matrixStats.o SparseArray_misc_methods.o SparseArray_subassignment.o SparseArray_subsetting.o SparseArray_summarization.o SparseMatrix_mult.o SparseVec.o SparseVec_Arith.o SparseVec_Compare.o SparseVec_Logic.o SparseVec_Math.o SparseVec_dotprod.o SparseVec_subassignment.o SparseVec_subsetting.o XVector_stubs.o argcheck_utils.o coerceVector2.o leaf_utils.o misc_utils.o randomSparseArray.o readSparseCSV.o rowsum_methods.o sparseMatrix_utils.o test.o thread_control.o -fopenmp -L/usr/lib64/R/lib -lR
+lto-wrapper: warning: using serial compilation of 5 LTRANS jobs
+installing to /home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/00LOCK-SparseArray/00new/SparseArray/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+  converting help for package ‘SparseArray’
+    finding HTML links ... done
+    COO_SparseArray-class                   html  
+    NaArray-Arith-methods                   html  
+    NaArray-Compare-methods                 html  
+    NaArray-Logic-methods                   html  
+    NaArray-Math-methods                    html  
+    NaArray-abind                           html  
+    NaArray-aperm                           html  
+    NaArray-class                           html  
+    NaArray-matrixStats                     html  
+    NaArray-misc-methods                    html  
+    NaArray-subassignment                   html  
+    NaArray-subsetting                      html  
+    NaArray-summarization                   html  
+    SVT_SparseArray-class                   html  
+    SparseArray-Arith-methods               html  
+    SparseArray-Compare-methods             html  
+    SparseArray-Complex-methods             html  
+    SparseArray-Logic-methods               html  
+    SparseArray-Math-methods                html  
+    SparseArray-abind                       html  
+    SparseArray-aperm                       html  
+    SparseArray-class                       html  
+    SparseArray-dim-tuning                  html  
+    SparseArray-matrixStats                 html  
+    SparseArray-misc-methods                html  
+    SparseArray-subassignment               html  
+    SparseArray-subsetting                  html  
+    SparseArray-summarization               html  
+    SparseMatrix-mult                       html  
+    extract_sparse_array                    html  
+    is_nonna                                html  
+    is_nonzero                              html  
+    randomSparseArray                       html  
+    readSparseCSV                           html  
+    read_block_as_sparse                    html  
+    rowsum-methods                          html  
+Rd warning: rowsum-methods.Rd:20: missing link ‘dsparseMatrix-class’
+Rd warning: rowsum-methods.Rd:36: missing link ‘dsparseMatrix-class’
+Rd warning: rowsum-methods.Rd:37: missing link ‘dgCMatrix-class’
+Rd warning: rowsum-methods.Rd:37: missing link ‘dgTMatrix-class’
+    sparseMatrix-utils                      html  
+    thread-control                          html  
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (SparseArray)
+* installing *source* package ‘GenomicRanges’ ...
+** this is package ‘GenomicRanges’ version ‘1.62.1’
+** package ‘GenomicRanges’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (GCC) 11.5.0 20240719 (Red Hat 11.5.0-11)’
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I/usr/local/include    -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c IRanges_stubs.c -o IRanges_stubs.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I/usr/local/include    -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c R_init_GenomicRanges.c -o R_init_GenomicRanges.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I/usr/local/include    -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c S4Vectors_stubs.c -o S4Vectors_stubs.o
+gcc -I"/usr/include/R" -DNDEBUG  -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/S4Vectors/include' -I'/home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/IRanges/include' -I/usr/local/include    -fpic  -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection  -c transcript_utils.c -o transcript_utils.o
+transcript_utils.c: In function ‘tlocs2rlocs’:
+transcript_utils.c:143:45: warning: ‘end’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  143 |         return on_minus_strand ? end - tloc : start + tloc;
+      |                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+transcript_utils.c:120:31: note: ‘end’ was declared here
+  120 |         int nexons, j, start, end, width;
+      |                               ^~~
+transcript_utils.c:143:45: warning: ‘start’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  143 |         return on_minus_strand ? end - tloc : start + tloc;
+      |                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+transcript_utils.c:120:24: note: ‘start’ was declared here
+  120 |         int nexons, j, start, end, width;
+      |                        ^~~~~
+gcc -shared -L/usr/lib64/R/lib -Wl,-z,relro -Wl,--as-needed -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -o GenomicRanges.so IRanges_stubs.o R_init_GenomicRanges.o S4Vectors_stubs.o transcript_utils.o -L/usr/lib64/R/lib -lR
+installing to /home/crnlqz/R/x86_64-redhat-linux-gnu-library/4.5/00LOCK-GenomicRanges/00new/GenomicRanges/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+  converting help for package ‘GenomicRanges’
+    finding HTML links ... done
+    DelegatingGenomicRanges-class           html  
+    GNCList-class                           html  
+    GPos-class                              html  
+Rd warning: GPos-class.Rd:55: missing link ‘IRanges’
+Rd warning: GPos-class.Rd:84: missing link ‘IRanges’
+Rd warning: GPos-class.Rd:84: missing link ‘IntegerRanges’
+    GRanges-class                           html  
+Rd warning: GRanges-class.Rd:94: missing link ‘strand’
+Rd warning: GRanges-class.Rd:102: missing link ‘strand’
+Rd warning: GRanges-class.Rd:108: missing link ‘Seqinfo’
+Rd warning: GRanges-class.Rd:204: missing link ‘DataFrame’
+Rd warning: GRanges-class.Rd:206: missing link ‘DataFrame’
+Rd warning: GRanges-class.Rd:224: missing link ‘seqlevels’
+Rd warning: GRanges-class.Rd:375: missing link ‘List’
+    GRangesFactor-class                     html  
+    GRangesList-class                       html  
+Rd warning: GRangesList-class.Rd:108: missing link ‘RleList’
+Rd warning: GRangesList-class.Rd:109: missing link ‘RleList’
+Rd warning: GRangesList-class.Rd:109: missing link ‘CharacterList’
+Rd warning: GRangesList-class.Rd:112: missing link ‘CompressedIRangesList’
+Rd warning: GRangesList-class.Rd:113: missing link ‘IntegerRangesList’
+Rd warning: GRangesList-class.Rd:125: missing link ‘RleList’
+Rd warning: GRangesList-class.Rd:126: missing link ‘RleList’
+Rd warning: GRangesList-class.Rd:126: missing link ‘CharacterList’
+Rd warning: GRangesList-class.Rd:129: missing link ‘RleList’
+Rd warning: GRangesList-class.Rd:130: missing link ‘CharacterList’
+Rd warning: GRangesList-class.Rd:135: missing link ‘DataFrame’
+Rd warning: GRangesList-class.Rd:146: missing link ‘Seqinfo’
+Rd warning: GRangesList-class.Rd:156: missing link ‘seqlevels’
+Rd warning: GRangesList-class.Rd:220: missing link ‘Rle’
+Rd warning: GRangesList-class.Rd:221: missing link ‘AtomicList’
+    GenomicRanges-comparison                html  
+    GenomicRangesList-class                 html  
+    absoluteRanges                          html  
+Rd warning: absoluteRanges.Rd:34: missing link ‘IntegerRanges’
+Rd warning: absoluteRanges.Rd:88: missing link ‘Seqinfo’
+Rd warning: absoluteRanges.Rd:88: missing link ‘seqlengths’
+    constraint                              html  
+    coverage-methods                        html  
+    findOverlaps-methods                    html  
+Rd warning: findOverlaps-methods.Rd:95: missing link ‘Hits’
+    genomic-range-squeezers                 html  
+    genomicvars                             html  
+    inter-range-methods                     html  
+    intra-range-methods                     html  
+    makeGRangesFromDataFrame                html  
+    makeGRangesListFromDataFrame            html  
+    nearest-methods                         html  
+    phicoef                                 html  
+    setops-methods                          html  
+    strand-utils                            html  
+Rd warning: strand-utils.Rd:52: missing link ‘RleList’
+Rd warning: strand-utils.Rd:64: missing link ‘RleList’
+Rd warning: strand-utils.Rd:65: missing link ‘RleList’
+Rd warning: strand-utils.Rd:74: missing link ‘RleList’
+Rd warning: strand-utils.Rd:99: missing link ‘RleList’
+Rd warning: strand-utils.Rd:101: missing link ‘RleList’
+    subtract-methods                        html  
+    tile-methods                            html  
+    tileGenome                              html  
+Rd warning: tileGenome.Rd:18: missing link ‘Seqinfo’
+Rd warning: tileGenome.Rd:21: missing link ‘Seqinfo’
+Rd warning: tileGenome.Rd:23: missing link ‘seqlengths’
+Rd warning: tileGenome.Rd:66: missing link ‘Seqinfo’
+Rd warning: tileGenome.Rd:66: missing link ‘seqlengths’
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (GenomicRanges)
+* installing *source* package ‘DelayedArray’ ...
+** this is package ‘DelayedArray’ version ‘0.36.1’
+** package ‘DelayedArray’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a new generic function for ‘apply’ in package ‘DelayedArray’
+Creating a new generic function for ‘sweep’ in package ‘DelayedArray’
+Creating a new generic function for ‘scale’ in package ‘DelayedArray’
+Creating a generic function for ‘dnorm’ from package ‘stats’ in package ‘DelayedArray’
+Creating a generic function for ‘pnorm’ from package ‘stats’ in package ‘DelayedArray’
+Creating a generic function for ‘qnorm’ from package ‘stats’ in package ‘DelayedArray’
+Creating a generic function for ‘dbinom’ from package ‘stats’ in package ‘DelayedArray’
+Creating a generic function for ‘pbinom’ from package ‘stats’ in package ‘DelayedArray’
+Creating a generic function for ‘qbinom’ from package ‘stats’ in package ‘DelayedArray’
+Creating a generic function for ‘dpois’ from package ‘stats’ in package ‘DelayedArray’
+Creating a generic function for ‘ppois’ from package ‘stats’ in package ‘DelayedArray’
+Creating a generic function for ‘qpois’ from package ‘stats’ in package ‘DelayedArray’
+Creating a generic function for ‘dlogis’ from package ‘stats’ in package ‘DelayedArray’
+Creating a generic function for ‘plogis’ from package ‘stats’ in package ‘DelayedArray’
+Creating a generic function for ‘qlogis’ from package ‘stats’ in package ‘DelayedArray’
+** help
+*** installing help indices
+  converting help for package ‘DelayedArray’
+    finding HTML links ... done
+    AutoBlock-global-settings               html  
+    AutoGrid                                html  
+    ConstantArray-class                     html  
+    DelayedAbind-class                      html  
+    DelayedAperm-class                      html  
+    DelayedArray-class                      html  
+    DelayedArray-stats                      html  
+    DelayedArray-utils                      html  
+Rd warning: DelayedArray-utils.Rd:142: missing link ‘arbind’
+Rd warning: DelayedArray-utils.Rd:142: missing link ‘acbind’
+    DelayedMatrix-mult                      html  
+    DelayedMatrix-rowsum                    html  
+    DelayedNaryIsoOp-class                  html  
+    DelayedOp-class                         html  
+    DelayedSetDimnames-class                html  
+    DelayedSubassign-class                  html  
+    DelayedSubset-class                     html  
+    DelayedUnaryIsoOpStack-class            html  
+    DelayedUnaryIsoOpWithArgs-class         html  
+    RealizationSink-class                   html  
+    RleArray-class                          html  
+    RleArraySeed-class                      html  
+    blockApply                              html  
+    chunkGrid                               html  
+    compat                                  html  
+    makeCappedVolumeBox                     html  
+    matrixStats-methods                     html  
+    realize                                 html  
+    showtree                                html  
+    simplify                                html  
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (DelayedArray)
+* installing *source* package ‘SummarizedExperiment’ ...
+** this is package ‘SummarizedExperiment’ version ‘1.40.0’
+** package ‘SummarizedExperiment’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+  converting help for package ‘SummarizedExperiment’
+    finding HTML links ... done
+    Assays-class                            html  
+    RangedSummarizedExperiment-class        html  
+Rd warning: RangedSummarizedExperiment-class.Rd:70: missing link ‘GRanges’
+Rd warning: RangedSummarizedExperiment-class.Rd:70: missing link ‘GRangesList’
+Rd warning: RangedSummarizedExperiment-class.Rd:72: missing link ‘DataFrame’
+Rd warning: RangedSummarizedExperiment-class.Rd:128: missing link ‘GRanges’
+Rd warning: RangedSummarizedExperiment-class.Rd:128: missing link ‘GRangesList’
+Rd warning: RangedSummarizedExperiment-class.Rd:129: missing link ‘GRanges’
+Rd warning: RangedSummarizedExperiment-class.Rd:130: missing link ‘GRangesList’
+Rd warning: RangedSummarizedExperiment-class.Rd:165: missing link ‘GRanges’
+Rd warning: RangedSummarizedExperiment-class.Rd:165: missing link ‘GRangesList’
+Rd warning: RangedSummarizedExperiment-class.Rd:168: missing link ‘pcompare’
+Rd warning: RangedSummarizedExperiment-class.Rd:169: missing link ‘end<-’
+Rd warning: RangedSummarizedExperiment-class.Rd:170: missing link ‘granges’
+Rd warning: RangedSummarizedExperiment-class.Rd:171: missing link ‘mcols’
+Rd warning: RangedSummarizedExperiment-class.Rd:171: missing link ‘mcols<-’
+Rd warning: RangedSummarizedExperiment-class.Rd:172: missing link ‘ranges’
+Rd warning: RangedSummarizedExperiment-class.Rd:172: missing link ‘ranges<-’
+Rd warning: RangedSummarizedExperiment-class.Rd:173: missing link ‘seqinfo’
+Rd warning: RangedSummarizedExperiment-class.Rd:173: missing link ‘seqinfo<-’
+Rd warning: RangedSummarizedExperiment-class.Rd:173: missing link ‘seqnames’
+Rd warning: RangedSummarizedExperiment-class.Rd:174: missing link ‘start<-’
+Rd warning: RangedSummarizedExperiment-class.Rd:175: missing link ‘strand’
+Rd warning: RangedSummarizedExperiment-class.Rd:175: missing link ‘strand<-’
+Rd warning: RangedSummarizedExperiment-class.Rd:176: missing link ‘width’
+Rd warning: RangedSummarizedExperiment-class.Rd:176: missing link ‘width<-’
+Rd warning: RangedSummarizedExperiment-class.Rd:185: missing link ‘GRanges’
+    SummarizedExperiment-class              html  
+Rd warning: SummarizedExperiment-class.Rd:92: missing link ‘DataFrame’
+Rd warning: SummarizedExperiment-class.Rd:183: missing link ‘DataFrame’
+Rd warning: SummarizedExperiment-class.Rd:307: missing link ‘DataFrame’
+Rd warning: SummarizedExperiment-class.Rd:308: missing link ‘DataFrame’
+Rd warning: SummarizedExperiment-class.Rd:310: missing link ‘DataFrame’
+Rd warning: SummarizedExperiment-class.Rd:312: missing link ‘DataFrame’
+Rd warning: SummarizedExperiment-class.Rd:316: missing link ‘DataFrame’
+Rd warning: SummarizedExperiment-class.Rd:318: missing link ‘DataFrame’
+Rd warning: SummarizedExperiment-class.Rd:320: missing link ‘DataFrame’
+Rd warning: SummarizedExperiment-class.Rd:322: missing link ‘DataFrame’
+Rd warning: SummarizedExperiment-class.Rd:324: missing link ‘DataFrame’
+Rd warning: SummarizedExperiment-class.Rd:337: missing link ‘SimpleList’
+Rd warning: SummarizedExperiment-class.Rd:343: missing link ‘SimpleList’
+Rd warning: SummarizedExperiment-class.Rd:370: missing link ‘DataFrame’
+Rd warning: SummarizedExperiment-class.Rd:373: missing link ‘DataFrame’
+Rd warning: SummarizedExperiment-class.Rd:499: missing link ‘DelayedArray’
+Rd warning: SummarizedExperiment-class.Rd:552: missing link ‘DelayedArray’
+    coverage-methods                        html  
+    findOverlaps-methods                    html  
+    inter-range-methods                     html  
+    intra-range-methods                     html  
+    makeSummarizedExperimentFromDataFrame   html  
+Rd warning: makeSummarizedExperimentFromDataFrame.Rd:9: missing link ‘GRanges’
+Rd warning: makeSummarizedExperimentFromDataFrame.Rd:19: missing link ‘makeGRangesFromDataFrame’
+Rd warning: makeSummarizedExperimentFromDataFrame.Rd:36: missing link ‘makeGRangesFromDataFrame’
+Rd warning: makeSummarizedExperimentFromDataFrame.Rd:39: missing link ‘Seqinfo’
+Rd warning: makeSummarizedExperimentFromDataFrame.Rd:49: missing link ‘GRanges’
+Rd warning: makeSummarizedExperimentFromDataFrame.Rd:64: missing link ‘makeGRangesFromDataFrame’
+    makeSummarizedExperimentFromExpressionSet
+                                            html  
+Rd warning: makeSummarizedExperimentFromExpressionSet.Rd:43: missing link ‘GRanges’
+Rd warning: makeSummarizedExperimentFromExpressionSet.Rd:43: missing link ‘GRangesList’
+Rd warning: makeSummarizedExperimentFromExpressionSet.Rd:68: missing link ‘GRanges’
+    makeSummarizedExperimentFromLoom        html  
+    nearest-methods                         html  
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (SummarizedExperiment)
+* installing *source* package ‘SingleCellExperiment’ ...
+** this is package ‘SingleCellExperiment’ version ‘1.32.0’
+** package ‘SingleCellExperiment’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+  converting help for package ‘SingleCellExperiment’
+    finding HTML links ... done
+    LEM-combine                             html  
+    LEM-getset                              html  
+    LEM-misc                                html  
+    LEM-subset                              html  
+    LinearEmbeddingMatrix                   html  
+    SingleCellExperiment                    html  
+Rd warning: SingleCellExperiment.Rd:45: missing link ‘RangedSummarizedExperiment-class’
+Rd warning: SingleCellExperiment.Rd:21: missing link ‘SummarizedExperiment’
+Rd warning: SingleCellExperiment.Rd:26: missing link ‘SummarizedExperiment-class’
+Rd warning: SingleCellExperiment.Rd:29: missing link ‘SelfHits-class’
+Rd warning: SingleCellExperiment.Rd:33: missing link ‘SelfHits-class’
+Rd warning: SingleCellExperiment.Rd:51: missing link ‘SummarizedExperiment-class’
+Rd warning: SingleCellExperiment.Rd:52: missing link ‘assays’
+Rd warning: SingleCellExperiment.Rd:53: missing link ‘rowData’
+Rd warning: SingleCellExperiment.Rd:53: missing link ‘colData’
+Rd warning: SingleCellExperiment.Rd:61: missing link ‘SummarizedExperiment-class’
+Rd warning: SingleCellExperiment.Rd:62: missing link ‘RangedSummarizedExperiment-class’
+    altExps                                 html  
+Rd warning: altExps.Rd:52: missing link ‘SummarizedExperiment-class’
+Rd warning: altExps.Rd:61: missing link ‘SummarizedExperiment-class’
+Rd warning: altExps.Rd:66: missing link ‘colData’
+Rd warning: altExps.Rd:73: missing link ‘List-class’
+Rd warning: altExps.Rd:73: missing link ‘SummarizedExperiment-class’
+Rd warning: altExps.Rd:77: missing link ‘colData’
+Rd warning: altExps.Rd:100: missing link ‘assay<-’
+Rd warning: altExps.Rd:121: missing link ‘Annotated-class’
+Rd warning: altExps.Rd:121: missing link ‘metadata’
+Rd warning: altExps.Rd:122: missing link ‘Vector-class’
+Rd warning: altExps.Rd:122: missing link ‘mcols’
+    applySCE                                html  
+    assays                                  html  
+Rd warning: assays.Rd:41: missing link ‘assay’
+Rd warning: assays.Rd:41: missing link ‘assay<-’
+Rd warning: assays.Rd:85: missing link ‘assay’
+Rd warning: assays.Rd:85: missing link ‘assay<-’
+    colLabels                               html  
+Rd warning: colLabels.Rd:39: missing link ‘SummarizedExperiment-class’
+Rd warning: colLabels.Rd:39: missing link ‘colData’
+Rd warning: colLabels.Rd:43: missing link ‘colData’
+Rd warning: colLabels.Rd:30: missing link ‘colData’
+    colPairs                                html  
+Rd warning: colPairs.Rd:32: missing link ‘SelfHits-class’
+Rd warning: colPairs.Rd:44: missing link ‘List-class’
+Rd warning: colPairs.Rd:44: missing link ‘SelfHits-class’
+Rd warning: colPairs.Rd:51: missing link ‘SelfHits-class’
+Rd warning: colPairs.Rd:71: missing link ‘SelfHits-class’
+Rd warning: colPairs.Rd:72: missing link ‘mcols’
+Rd warning: colPairs.Rd:76: missing link ‘SelfHits-class’
+Rd warning: colPairs.Rd:87: missing link ‘SelfHits-class’
+    combine                                 html  
+Rd warning: combine.Rd:27: missing link ‘rbind,SummarizedExperiment-method’
+Rd warning: combine.Rd:47: missing link ‘cbind,SummarizedExperiment-method’
+Rd warning: combine.Rd:56: missing link ‘colData’
+Rd warning: combine.Rd:56: missing link ‘combineCols,SummarizedExperiment-method’
+Rd warning: combine.Rd:63: missing link ‘combineCols’
+Rd warning: combine.Rd:89: missing link ‘[,SummarizedExperiment-method’
+Rd warning: combine.Rd:102: missing link ‘SummarizedExperiment-class’
+    defunct                                 html  
+    internals                               html  
+Rd warning: internals.Rd:31: missing link ‘DataFrame-class’
+Rd warning: internals.Rd:33: missing link ‘rowData’
+Rd warning: internals.Rd:34: missing link ‘DataFrame-class’
+Rd warning: internals.Rd:36: missing link ‘colData’
+Rd warning: internals.Rd:37: missing link ‘metadata’
+Rd warning: internals.Rd:43: missing link ‘DataFrame-class’
+Rd warning: internals.Rd:46: missing link ‘rowData,SummarizedExperiment-method’
+Rd warning: internals.Rd:47: missing link ‘DataFrame-class’
+Rd warning: internals.Rd:50: missing link ‘colData,SummarizedExperiment-method’
+Rd warning: internals.Rd:59: missing link ‘DataFrame-class’
+Rd warning: internals.Rd:60: missing link ‘rowData<-’
+Rd warning: internals.Rd:62: missing link ‘DataFrame-class’
+Rd warning: internals.Rd:63: missing link ‘colData<-’
+Rd warning: internals.Rd:65: missing link ‘metadata<-’
+Rd warning: internals.Rd:89: missing link ‘colData’
+Rd warning: internals.Rd:89: missing link ‘rowData’
+Rd warning: internals.Rd:89: missing link ‘metadata’
+    miscellaneous                           html  
+    reduced.dim.matrix                      html  
+    reducedDims                             html  
+Rd warning: reducedDims.Rd:43: missing link ‘List-class’
+Rd warning: reducedDims.Rd:69: missing link ‘assay<-’
+Rd warning: reducedDims.Rd:87: missing link ‘Annotated-class’
+Rd warning: reducedDims.Rd:87: missing link ‘metadata’
+Rd warning: reducedDims.Rd:88: missing link ‘Vector-class’
+Rd warning: reducedDims.Rd:88: missing link ‘mcols’
+Rd warning: reducedDims.Rd:114: missing link ‘mcols’
+Rd warning: reducedDims.Rd:117: missing link ‘mcols’
+    rowPairs                                html  
+Rd warning: rowPairs.Rd:36: missing link ‘SelfHits-class’
+Rd warning: rowPairs.Rd:48: missing link ‘List-class’
+Rd warning: rowPairs.Rd:48: missing link ‘SelfHits-class’
+Rd warning: rowPairs.Rd:55: missing link ‘SelfHits-class’
+Rd warning: rowPairs.Rd:75: missing link ‘SelfHits-class’
+Rd warning: rowPairs.Rd:76: missing link ‘mcols’
+Rd warning: rowPairs.Rd:80: missing link ‘SelfHits-class’
+Rd warning: rowPairs.Rd:91: missing link ‘SelfHits-class’
+    rowSubset                               html  
+Rd warning: rowSubset.Rd:18: missing link ‘rowData’
+Rd warning: rowSubset.Rd:47: missing link ‘rowData’
+Rd warning: rowSubset.Rd:32: missing link ‘rowData’
+    simplifyToSCE                           html  
+Rd warning: simplifyToSCE.Rd:31: missing link ‘SummarizedExperiment-class’
+    sizeFactors                             html  
+Rd warning: sizeFactors.Rd:37: missing link ‘colData’
+Rd warning: sizeFactors.Rd:39: missing link ‘colData’
+Rd warning: sizeFactors.Rd:27: missing link ‘colData’
+    splitAltExps                            html  
+    swapAltExp                              html  
+    unsplitAltExps                          html  
+Rd warning: unsplitAltExps.Rd:15: missing link ‘colData’
+Rd warning: unsplitAltExps.Rd:34: missing link ‘ConstantMatrix-class’
+Rd warning: unsplitAltExps.Rd:35: missing link ‘DelayedArray-class’
+Rd warning: unsplitAltExps.Rd:38: missing link ‘colData’
+    updateObject                            html  
+Rd warning: updateObject.Rd:30: missing link ‘sizeFactors<-’
+Rd warning: updateObject.Rd:30: missing link ‘colData’
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (SingleCellExperiment)
+* installing *source* package ‘TrajectoryUtils’ ...
+** this is package ‘TrajectoryUtils’ version ‘1.18.0’
+** package ‘TrajectoryUtils’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+  converting help for package ‘TrajectoryUtils’
+    finding HTML links ... done
+    PseudotimeOrdering                      html  
+Rd warning: PseudotimeOrdering.Rd:47: missing link ‘DataFrame-class’
+Rd warning: PseudotimeOrdering.Rd:49: missing link ‘DataFrame-class’
+Rd warning: PseudotimeOrdering.Rd:123: missing link ‘SummarizedExperiment-class’
+Rd warning: PseudotimeOrdering.Rd:134: missing link ‘colData’
+    averagePseudotime                       html  
+    createClusterMST                        html  
+Rd warning: createClusterMST.Rd:40: missing link ‘SummarizedExperiment-class’
+Rd warning: createClusterMST.Rd:40: missing link ‘SingleCellExperiment-class’
+Rd warning: createClusterMST.Rd:41: missing link ‘assays’
+Rd warning: createClusterMST.Rd:44: missing link ‘SingleCellExperiment-class’
+Rd warning: createClusterMST.Rd:44: missing link ‘reducedDims’
+Rd warning: createClusterMST.Rd:100: missing link ‘graph’
+    defineMSTPaths                          html  
+Rd warning: defineMSTPaths.Rd:10: missing link ‘graph’
+    guessMSTRoots                           html  
+Rd warning: guessMSTRoots.Rd:13: missing link ‘graph’
+    rowmean                                 html  
+    splitByBranches                         html  
+Rd warning: splitByBranches.Rd:10: missing link ‘graph’
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (TrajectoryUtils)
+* installing *source* package ‘slingshot’ ...
+** this is package ‘slingshot’ version ‘2.18.0’
+** package ‘slingshot’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+in method for ‘slingshot’ with signature ‘data="ClusterExperiment"’: no definition for class “ClusterExperiment”
+** help
+*** installing help indices
+  converting help for package ‘slingshot’
+    finding HTML links ... done
+    SlingshotDataSet-class                  html  
+Rd warning: SlingshotDataSet-class.Rd:34: missing link ‘PseudotimeOrdering’
+Rd warning: SlingshotDataSet-class.Rd:127: missing link ‘PseudotimeOrdering’
+    SlingshotDataSet                        html  
+    as.PseudotimeOrdering                   html  
+    as.SlingshotDataSet                     html  
+    embedCurves                             html  
+Rd warning: embedCurves.Rd:77: missing link ‘PseudotimeOrdering’
+    getCurves                               html  
+Rd warning: getCurves.Rd:36: missing link ‘SingleCellExperiment’
+Rd warning: getCurves.Rd:95: missing link ‘PseudotimeOrdering’
+    getLineages                             html  
+Rd warning: getLineages.Rd:51: missing link ‘SingleCellExperiment’
+Rd warning: getLineages.Rd:102: missing link ‘PseudotimeOrdering’
+    newSlingshotDataSet                     html  
+    pairs-SlingshotDataSet                  html  
+    plot-SlingshotDataSet                   html  
+    plot3d-SlingshotDataSet                 html  
+    predict.SlingshotDataSet                html  
+    slingBranchGraph                        html  
+Rd warning: slingBranchGraph.Rd:14: missing link ‘PseudotimeOrdering’
+Rd warning: slingBranchGraph.Rd:14: missing link ‘SingleCellExperiment’
+    slingBranchID                           html  
+Rd warning: slingBranchID.Rd:14: missing link ‘PseudotimeOrdering’
+Rd warning: slingBranchID.Rd:14: missing link ‘SingleCellExperiment’
+    slingClusterLabels                      html  
+    slingCurves                             html  
+    slingLineages                           html  
+    slingMST                                html  
+    slingParams                             html  
+    slingPseudotime                         html  
+    slingReducedDim                         html  
+    slingshot                               html  
+Rd warning: slingshot.Rd:131: missing link ‘SingleCellExperiment’
+Rd warning: slingshot.Rd:234: missing link ‘PseudotimeOrdering’
+    slingshotExample                        html  
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (slingshot)
+
+The downloaded source packages are in
+	‘/tmp/RtmpundEb5/downloaded_packages’
+Loading mac_update3_best.rds ...
+  Cells: 11500 | Clusters: 11 
+Loading MSigDB gene sets ...
+Warning messages:
+1: The `category` argument of `msigdbr()` is deprecated as of msigdbr 10.0.0.
+ℹ Please use the `collection` argument instead. 
+2: The `subcategory` argument of `msigdbr()` is deprecated as of msigdbr 10.0.0.
+ℹ Please use the `subcollection` argument instead. 
+  Gene sets: 14488 
+
+=== Section 2: BC mac vs Other mac (DEG + GSEA) ===
+  BC_mac: 3102 | Other_mac: 8360 
+  FindMarkers (BC_mac vs Other_mac) ...
+For a (much!) faster implementation of the Wilcoxon Rank Sum Test,
+(default method for FindMarkers) please install the presto package
+--------------------------------------------
+install.packages('devtools')
+devtools::install_github('immunogenomics/presto')
+--------------------------------------------
+After installation of presto, Seurat will automatically use the more 
+efficient implementation (no further action necessary).
+This message will be shown once per session

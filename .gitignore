@@ -1,5 +1,9 @@
 # Claude Code local config
 .claude/settings.local.json
+.claude/.nfs*
+
+# NFS temp files
+.nfs*
 
 # Python
 __pycache__/
@@ -21,6 +25,12 @@ env/
 data/
 results/
 ref/
+
+# Large Seurat objects (heavy data - regenerable)
+bm_analysis_out/figures_update_3/mac_update3_best.rds
+
+# Slurm/job error logs
+*.err
 
 # OS
 .DS_Store
