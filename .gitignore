@@ -35,6 +35,10 @@ ipf/Habermann2020/*.gz
 ipf/Adams2020/
 ipf/Reyfman2019/*.tar
 
+# IPF intermediate figure versions (v3+) and TIFFs — regenerable
+ipf/figures/
+ipf/figures_Habermann2020/*.tiff
+
 # Slurm/job error logs
 *.err
 
