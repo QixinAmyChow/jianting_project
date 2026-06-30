@@ -1,0 +1,140 @@
+=== Section 1: Clustering from Myeloid.rds ===
+Loading Myeloid.rds ...
+  Full myeloid: 43164 cells
+  After Mφ subset: 11500 cells
+Reading patient metadata ...
+  cancer_type_er:
+
+BC_ER- BC_ER? BC_ER+    BDC     CC   ctrl     EC     KC     LC     PC     TC 
+    39    280   2783    278    409     38    124   5252   2080     39    178 
+SCTransform ...
+`vst.flavor` is set to 'v2' but could not find glmGamPoi installed.
+Please install the glmGamPoi package for much faster estimation.
+--------------------------------------------
+install.packages('BiocManager')
+BiocManager::install('glmGamPoi')
+--------------------------------------------
+Falling back to native (slower) implementation.
+
+PCA ...
+Parameter sweep (72 combos) ...
+Warning: The default method for RunUMAP has changed from calling Python UMAP via reticulate to the R-native UWOT using the cosine metric
+To use Python UMAP via reticulate, set umap.method to 'umap-learn' and metric to 'correlation'
+This message will be shown once per session
+  [10/72] nn20_md0.30_res0.3  ncl=11  F1_ER+=0.767
+  [20/72] nn50_md0.10_res0.5  ncl=14  F1_ER+=0.693
+  [30/72] nn20_md0.10_res0.8  ncl=16  F1_ER+=0.691
+  [40/72] nn50_md0.05_res1.0  ncl=18  F1_ER+=0.689
+  [50/72] nn20_md0.05_res1.2  ncl=22  F1_ER+=0.689
+  [60/72] nn50_md0.30_res1.2  ncl=22  F1_ER+=0.689
+  [70/72] nn20_md0.30_res1.5  ncl=28  F1_ER+=0.436
+  [72/72] nn50_md0.30_res1.5  ncl=28  F1_ER+=0.436
+Top 5:
+                tag n_neighbors min_dist resolution n_clusters f1_BC_ER_pos
+ nn10_md0.05_res0.3          10     0.05        0.3         11    0.7666952
+ nn20_md0.05_res0.3          20     0.05        0.3         11    0.7666952
+ nn30_md0.05_res0.3          30     0.05        0.3         11    0.7666952
+ nn50_md0.05_res0.3          50     0.05        0.3         11    0.7666952
+ nn10_md0.10_res0.3          10     0.10        0.3         11    0.7666952
+ f1_BC_family
+    0.7204969
+    0.7204969
+    0.7204969
+    0.7204969
+    0.7204969
+
+Best: nn10_md0.05_res0.3  ncl=11  F1_ER+=0.7667
+  Clusters: 11 
+    
+     BC_ER- BC_ER? BC_ER+  BDC   CC ctrl   EC   KC   LC   PC   TC
+  0       0     36    233    3  106    1    4 1889   57    0  104
+  1       0      7   1791    0    3    0    0   53   20    0   15
+  2       4     56    225    2  112   34   91  872  388    1   22
+  3       0      1     24    4   11    0    0 1239   18    0    7
+  4       0      0      2    0    1    0    0   14 1092    0    3
+  5      29    111    216  261  113    0    0   67  209   35    1
+  6       0     25    123    4    3    1   14  429  122    1    1
+  7       5     27     70    3   16    2   15  267  119    0    6
+  8       1     12     47    0   44    0    0  293   38    1   17
+  9       0      5     52    1    0    0    0   54   17    1    0
+  10      0      0      0    0    0    0    0   75    0    0    2
+  Saved: bm_analysis_out/figures_update_3/mac_update3_best.rds 
+There were 50 or more warnings (use warnings() to see the first 50)
+Active clusters: 0 1 2 3 4 5 6 7 8 9 10 | Cells: 11500 
+
+=== Section 2: Sanity figures ===
+  Saved: 00_sanity_*
+
+=== Section 3: Clustering figures ===
+Warning message:
+In readLines(HIGHLIGHT_F) :
+  incomplete final line found on 'bm_analysis_out/figures/highlight_genes.txt'
+  Genes: TIMP2, MMP14, PDGFA, FN1, VIM, ESR1, SP1 
+  Saved: 01_umap_overview
+  Saved: 02_cancer_type_bar_bc_er
+  Saved: 03a_feature_plots_highlight
+  Saved: 03b_feature_plots_esr1_sp1
+  Saved: 03c_dotplot_combined
+  Saved: 03b_dotplot_highlight
+  Saved: 04_bc_highlight_umap
+
+=== Section 4: DEG + GSEA (Hallmark+C6) + metadata ===
+Loading cached DEG ...
+  Markers: 10026 
+Scale for fill is already present.
+Adding another scale for fill, which will replace the existing scale.
+Warning message:
+In DoHeatmap(s, features = unique(top5$gene), group.by = "mac_subcluster",  :
+  The following features were omitted as they were not found in the scale.data layer for the SCT assay: HOXB6, SYNPO, AF233439.1, AIM2
+  Saved: 04a_deg_heatmap
+  Saved: 04b_deg_dotplot
+  Saved: 04c_dotplot_comb_top_clusters
+Loading cached GSEA (Hallmark+C6) ...
+  GSEA rows: 1494 
+  Saved: 05b_gsea_bubble
+  Saved: 06_gender_per_cluster 
+  Saved: 07_tissue_origin_per_cluster 
+  Saved: 08_treatment_per_cluster 
+
+=== Section 5: Broader GSEA ===
+Loading cached broader GSEA ...
+  Broader GSEA rows: 38872 
+Warning message:
+In grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y,  :
+  for 'Cluster 1 (94.8% BC_ER+) — Hypothesis-Relevant GSEA Pathways' in 'mbcsToSbcs': - substituted for — (U+2014)
+Warning message:
+In grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y,  :
+  for 'Cluster 1 (94.8% BC_ER+) — Hypothesis-Relevant GSEA Pathways' in 'mbcsToSbcs': - substituted for — (U+2014)
+  Saved: 05c_cluster1_hypo_gsea + 05c_cluster1_db_gsea
+
+=== Section 6: All-DB stacking ===
+Warning message:
+In grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y,  :
+  for 'GSEA — Top 5 Up/Down per Cluster | All Databases | Deduplicated' in 'mbcsToSbcs': - substituted for — (U+2014)
+  Saved: 05e_gsea_alldb_stacking
+
+=== Section 7: Cluster 1 combined GSEA ===
+  Terms per hypothesis:
+# A tibble: 6 × 2
+  hypothesis                     n
+  <chr>                      <int>
+1 Cytokine / NFkB / JAK-STAT     5
+2 ECM remodeling                 1
+3 Immunosuppression / T cell     5
+4 Macrophage polarization        5
+5 TGF-b / EMT                    2
+6 Wnt / osteogenic niche         5
+Warning message:
+Removed 1 row containing missing values or values outside the scale range
+(`geom_bar()`). 
+Warning message:
+Removed 1 row containing missing values or values outside the scale range
+(`geom_bar()`). 
+  Saved: 05f_cl1_combined_nofacet
+
+=== Section 8: Save GSEA selections ===
+  slide12 rows: 107 | slide14 rows: 23
+
+===== pipeline_update3.R complete =====
+All figures in: bm_analysis_out/figures_update_3 
+Run build_slides.py to generate the pptx

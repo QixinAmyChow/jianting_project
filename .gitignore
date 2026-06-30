@@ -27,17 +27,23 @@ results/
 ref/
 
 # Large Seurat objects (heavy data - regenerable)
-bm_analysis_out/figures_update_3/mac_update3_best.rds
+bm/data/rds/mac_update3_best.rds
+bm/data/rds/mac_update4_group4.rds
+
+# BM raw GEO data (large downloads)
+bm/data/raw/geo/integrated_Seurat_objects/
+bm/data/raw/geo/integrated_Seurat_objects.zip
 
 # IPF project — raw GEO data and Seurat caches (large, regenerable/downloadable)
-ipf/Habermann2020/*.rds
-ipf/Habermann2020/*.gz
-ipf/Adams2020/
-ipf/Reyfman2019/*.tar
+ipf/data/Habermann2020/*.rds
+ipf/data/Habermann2020/*.gz
+ipf/data/Adams2020/
+ipf/data/Reyfman2019/*.tar
+ipf/data/Reyfman2019/*.rds
+ipf/data/Reyfman2019/*.h5
 
-# IPF intermediate figure versions (v3+) and TIFFs — regenerable
-ipf/figures/
-ipf/figures_Habermann2020/*.tiff
+# IPF TIFFs — regenerable
+ipf/figures/Habermann2020/*.tiff
 
 # Slurm/job error logs
 *.err

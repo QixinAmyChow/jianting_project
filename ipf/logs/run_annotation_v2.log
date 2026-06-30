@@ -1,0 +1,732 @@
+Loading required package: SeuratObject
+Loading required package: sp
+
+Attaching package: ‘SeuratObject’
+
+The following objects are masked from ‘package:base’:
+
+    intersect, t
+
+Loading required package: Rcpp
+• This is Harmony2 version 2.0.5
+• Read the guide: run vignette("quickstart", package="harmony")
+• Get help: Visit the website at <https://korsunskylab.github.io/harmony2/> and
+report issues on <https://github.com/immunogenomics/harmony/issues>
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+=== Per-sample processing (matching paper S1) ===
+
+[1/17] donor01 (dims=1:13, res=0.3)
+Warning: Feature names cannot have underscores ('_'), replacing with dashes ('-')
+  After QC: 5370 cells
+  HVG: 1446
+  Clusters: 10
+  [donor01] cluster → cell type:
+    0 → Macrophages
+    1 → AT2 Cells
+    2 → AT1 Cells
+    3 → Monocytes
+    4 → AT1 Cells
+    5 → Club Cells
+    6 → Endothelial Cells
+    7 → Plasma Cells
+    8 → Mast Cells
+    9 → Endothelial Cells
+
+[2/17] donor02 (dims=1:16, res=0.3)
+Warning: Feature names cannot have underscores ('_'), replacing with dashes ('-')
+  After QC: 3813 cells
+  HVG: 2000
+  Clusters: 12
+  [donor02] cluster → cell type:
+    0 → Macrophages
+    1 → AT2 Cells
+    2 → AT2 Cells
+    3 → AT2 Cells
+    4 → AT1 Cells
+    5 → Endothelial Cells
+    6 → Monocytes
+    7 → Dendritic Cells
+    8 → Ciliated Cells
+    9 → T/NKT Cells
+    10 → Basal Cells
+    11 → Fibroblasts
+
+[3/17] donor03 (dims=1:9, res=0.3)
+Warning: Feature names cannot have underscores ('_'), replacing with dashes ('-')
+  After QC: 5150 cells
+  HVG: 1722
+  Clusters: 10
+  [donor03] cluster → cell type:
+    0 → Dendritic Cells
+    1 → AT2 Cells
+    2 → Monocytes
+    3 → Club Cells
+    4 → Plasma Cells
+    5 → AT1 Cells
+    6 → Endothelial Cells
+    7 → Dendritic Cells
+    8 → Ciliated Cells
+    9 → Smooth Muscle Cells
+
+[4/17] donor04 (dims=1:9, res=0.3)
+Warning: Feature names cannot have underscores ('_'), replacing with dashes ('-')
+  After QC: 5142 cells
+  HVG: 1555
+  Clusters: 8
+  [donor04] cluster → cell type:
+    0 → AT2 Cells
+    1 → Dendritic Cells
+    2 → AT1 Cells
+    3 → Macrophages
+    4 → Club Cells
+    5 → Ciliated Cells
+    6 → Fibroblasts
+    7 → Plasma Cells
+
+[5/17] donor05 (dims=1:27, res=0.5)
+Warning: Feature names cannot have underscores ('_'), replacing with dashes ('-')
+  After QC: 5275 cells
+  HVG: 1499
+  Clusters: 11
+  [donor05] cluster → cell type:
+    0 → Macrophages
+    1 → AT2 Cells
+    2 → AT2 Cells
+    3 → Club Cells
+    4 → AT1 Cells
+    5 → Monocytes
+    6 → Fibroblasts
+    7 → AT1 Cells
+    8 → Club Cells
+    9 → Endothelial Cells
+    10 → Plasma Cells
+
+[6/17] donor06 (dims=1:20, res=0.5)
+Warning: Feature names cannot have underscores ('_'), replacing with dashes ('-')
+  After QC: 4209 cells
+  HVG: 2000
+  Clusters: 14
+  [donor06] cluster → cell type:
+    0 → Macrophages
+    1 → AT2 Cells
+    2 → AT2 Cells
+    3 → Macrophages
+    4 → AT1 Cells
+    5 → Monocytes
+    6 → Monocytes
+    7 → T/NKT Cells
+    8 → Dendritic Cells
+    9 → AT2 Cells
+    10 → Endothelial Cells
+    11 → Club Cells
+    12 → Plasma Cells
+    13 → Fibroblasts
+
+[7/17] donor07 (dims=1:22, res=0.3)
+Warning: Feature names cannot have underscores ('_'), replacing with dashes ('-')
+  After QC: 7447 cells
+  HVG: 2000
+  Clusters: 13
+  [donor07] cluster → cell type:
+    0 → AT2 Cells
+    1 → Macrophages
+    2 → AT2 Cells
+    3 → Monocytes
+    4 → Club Cells
+    5 → Dendritic Cells
+    6 → Ciliated Cells
+    7 → T/NKT Cells
+    8 → Endothelial Cells
+    9 → Club Cells
+    10 → Endothelial Cells
+    11 → Fibroblasts
+    12 → Mast Cells
+
+[8/17] donor08 (dims=1:12, res=0.5)
+Warning: Feature names cannot have underscores ('_'), replacing with dashes ('-')
+  After QC: 6730 cells
+  HVG: 1240
+  Clusters: 13
+  [donor08] cluster → cell type:
+    0 → Club Cells
+    1 → Macrophages
+    2 → Macrophages
+    3 → AT2 Cells
+    4 → AT2 Cells
+    5 → Ciliated Cells
+    6 → Dendritic Cells
+    7 → Monocytes
+    8 → AT1 Cells
+    9 → T/NKT Cells
+    10 → Endothelial Cells
+    11 → Endothelial Cells
+    12 → Fibroblasts
+
+[9/17] ipf01 (dims=1:26, res=0.5)
+Warning: Feature names cannot have underscores ('_'), replacing with dashes ('-')
+  After QC: 2179 cells
+  HVG: 2000
+  Clusters: 13
+  [ipf01] cluster → cell type:
+    0 → Monocytes
+    1 → Macrophages
+    2 → AT1 Cells
+    3 → Monocytes
+    4 → B Cells
+    5 → T/NKT Cells
+    6 → Plasma Cells
+    7 → Dendritic Cells
+    8 → Fibroblasts
+    9 → Ciliated Cells
+    10 → Endothelial Cells
+    11 → Monocytes
+    12 → Mast Cells
+
+[10/17] ipf02 (dims=1:26, res=0.7)
+Warning: Feature names cannot have underscores ('_'), replacing with dashes ('-')
+  After QC: 2217 cells
+  HVG: 2000
+  Clusters: 15
+  [ipf02] cluster → cell type:
+    0 → Macrophages
+    1 → T/NKT Cells
+    2 → Dendritic Cells
+    3 → Basal Cells
+    4 → T/NKT Cells
+    5 → AT2 Cells
+    6 → Macrophages
+    7 → Ciliated Cells
+    8 → B Cells
+    9 → Mast Cells
+    10 → Endothelial Cells
+    11 → B Cells
+    12 → Smooth Muscle Cells
+    13 → AT1 Cells
+    14 → Plasma Cells
+
+[11/17] ipf03 (dims=1:36, res=0.5)
+Warning: Feature names cannot have underscores ('_'), replacing with dashes ('-')
+  After QC: 3911 cells
+  HVG: 1898
+  Clusters: 13
+  [ipf03] cluster → cell type:
+    0 → Macrophages
+    1 → Plasma Cells
+    2 → Monocytes
+    3 → AT2 Cells
+    4 → Dendritic Cells
+    5 → Macrophages
+    6 → B Cells
+    7 → T/NKT Cells
+    8 → Macrophages
+    9 → Basal Cells
+    10 → Ciliated Cells
+    11 → Fibroblasts
+    12 → Mast Cells
+
+[12/17] ipf04 (dims=1:11, res=0.5)
+Warning: Feature names cannot have underscores ('_'), replacing with dashes ('-')
+  After QC: 5308 cells
+  HVG: 2000
+  Clusters: 11
+  [ipf04] cluster → cell type:
+    0 → AT2 Cells
+    1 → Macrophages
+    2 → Macrophages
+    3 → Macrophages
+    4 → Dendritic Cells
+    5 → Fibroblasts
+    6 → Ciliated Cells
+    7 → Club Cells
+    8 → Macrophages
+    9 → Endothelial Cells
+    10 → Plasma Cells
+
+[13/17] hp01 (dims=1:32, res=0.7)
+Warning: Feature names cannot have underscores ('_'), replacing with dashes ('-')
+  After QC: 2792 cells
+  HVG: 2000
+  Clusters: 17
+  [hp01] cluster → cell type:
+    0 → Macrophages
+    1 → Monocytes
+    2 → AT2 Cells
+    3 → Monocytes
+    4 → T/NKT Cells
+    5 → Plasma Cells
+    6 → Fibroblasts
+    7 → Ciliated Cells
+    8 → Dendritic Cells
+    9 → AT1 Cells
+    10 → T/NKT Cells
+    11 → B Cells
+    12 → T/NKT Cells
+    13 → Endothelial Cells
+    14 → Plasma Cells
+    15 → Dendritic Cells
+    16 → Mast Cells
+
+[14/17] ssc_ild01 (dims=1:19, res=0.5)
+Warning: Feature names cannot have underscores ('_'), replacing with dashes ('-')
+  After QC: 5062 cells
+  HVG: 2000
+  Clusters: 13
+  [ssc_ild01] cluster → cell type:
+    0 → Dendritic Cells
+    1 → AT2 Cells
+    2 → Monocytes
+    3 → Monocytes
+    4 → Macrophages
+    5 → Monocytes
+    6 → Ciliated Cells
+    7 → Basal Cells
+    8 → Dendritic Cells
+    9 → Macrophages
+    10 → Plasma Cells
+    11 → Endothelial Cells
+    12 → AT1 Cells
+
+[15/17] myositis_ild01 (dims=1:17, res=0.7)
+Warning: Feature names cannot have underscores ('_'), replacing with dashes ('-')
+  After QC: 6975 cells
+  HVG: 2000
+  Clusters: 16
+  [myositis_ild01] cluster → cell type:
+    0 → Macrophages
+    1 → Macrophages
+    2 → Ciliated Cells
+    3 → Club Cells
+    4 → Club Cells
+    5 → Dendritic Cells
+    6 → Basal Cells
+    7 → Monocytes
+    8 → Macrophages
+    9 → AT2 Cells
+    10 → Monocytes
+    11 → Mast Cells
+    12 → Macrophages
+    13 → T/NKT Cells
+    14 → Fibroblasts
+    15 → Endothelial Cells
+
+[16/17] ssc_ild02 (dims=1:25, res=0.5)
+Warning: Feature names cannot have underscores ('_'), replacing with dashes ('-')
+  After QC: 6375 cells
+  HVG: 1737
+  Clusters: 15
+  [ssc_ild02] cluster → cell type:
+    0 → AT2 Cells
+    1 → Macrophages
+    2 → Monocytes
+    3 → Macrophages
+    4 → AT1 Cells
+    5 → Monocytes
+    6 → Macrophages
+    7 → T/NKT Cells
+    8 → Ciliated Cells
+    9 → Plasma Cells
+    10 → T/NKT Cells
+    11 → AT1 Cells
+    12 → Endothelial Cells
+    13 → Dendritic Cells
+    14 → Basal Cells
+
+[17/17] cryo (dims=1:15, res=0.5)
+Warning: Feature names cannot have underscores ('_'), replacing with dashes ('-')
+  After QC: 1517 cells
+  HVG: 2000
+  Clusters: 16
+  [cryo] cluster → cell type:
+    0 → T/NKT Cells
+    1 → Macrophages
+    2 → AT2 Cells
+    3 → T/NKT Cells
+    4 → Dendritic Cells
+    5 → Club Cells
+    6 → Endothelial Cells
+    7 → Endothelial Cells
+    8 → Mast Cells
+    9 → Endothelial Cells
+    10 → AT1 Cells
+    11 → Fibroblasts
+    12 → Macrophages
+    13 → Smooth Muscle Cells
+    14 → Fibroblasts
+    15 → Ciliated Cells
+
+Per-sample list cached: ipf/Reyfman2019/cache_v2_per_sample_list.rds
+
+=== Per-sample cell type counts ===
+
+donor01:
+  AT1 Cells                 1052
+  AT2 Cells                 1363
+  Club Cells                127
+  Endothelial Cells         106
+  Macrophages               2464
+  Mast Cells                42
+  Monocytes                 170
+  Plasma Cells              46
+
+donor02:
+  AT1 Cells                 115
+  AT2 Cells                 2077
+  Basal Cells               47
+  Ciliated Cells            66
+  Dendritic Cells           94
+  Endothelial Cells         109
+  Fibroblasts               34
+  Macrophages               1120
+  Monocytes                 103
+  T/NKT Cells               48
+
+donor03:
+  AT1 Cells                 140
+  AT2 Cells                 1725
+  Ciliated Cells            61
+  Club Cells                180
+  Dendritic Cells           2592
+  Endothelial Cells         79
+  Monocytes                 198
+  Plasma Cells              147
+  Smooth Muscle Cells       28
+
+donor04:
+  AT1 Cells                 732
+  AT2 Cells                 2029
+  Ciliated Cells            107
+  Club Cells                559
+  Dendritic Cells           863
+  Fibroblasts               88
+  Macrophages               678
+  Plasma Cells              86
+
+donor05:
+  AT1 Cells                 677
+  AT2 Cells                 1917
+  Club Cells                679
+  Endothelial Cells         47
+  Fibroblasts               173
+  Macrophages               1516
+  Monocytes                 229
+  Plasma Cells              37
+
+donor06:
+  AT1 Cells                 304
+  AT2 Cells                 1641
+  Club Cells                52
+  Dendritic Cells           108
+  Endothelial Cells         93
+  Fibroblasts               30
+  Macrophages               1312
+  Monocytes                 505
+  Plasma Cells              52
+  T/NKT Cells               112
+
+donor07:
+  AT2 Cells                 4037
+  Ciliated Cells            225
+  Club Cells                547
+  Dendritic Cells           273
+  Endothelial Cells         238
+  Fibroblasts               67
+  Macrophages               1368
+  Mast Cells                35
+  Monocytes                 455
+  T/NKT Cells               202
+
+donor08:
+  AT1 Cells                 189
+  AT2 Cells                 1370
+  Ciliated Cells            559
+  Club Cells                1382
+  Dendritic Cells           277
+  Endothelial Cells         137
+  Fibroblasts               26
+  Macrophages               2447
+  Monocytes                 218
+  T/NKT Cells               125
+
+ipf01:
+  AT1 Cells                 216
+  B Cells                   167
+  Ciliated Cells            97
+  Dendritic Cells           147
+  Endothelial Cells         86
+  Fibroblasts               109
+  Macrophages               360
+  Mast Cells                24
+  Monocytes                 655
+  Plasma Cells              151
+  T/NKT Cells               167
+
+ipf02:
+  AT1 Cells                 28
+  AT2 Cells                 184
+  B Cells                   201
+  Basal Cells               198
+  Ciliated Cells            133
+  Dendritic Cells           211
+  Endothelial Cells         94
+  Macrophages               538
+  Mast Cells                99
+  Plasma Cells              20
+  Smooth Muscle Cells       70
+  T/NKT Cells               441
+
+ipf03:
+  AT2 Cells                 382
+  B Cells                   165
+  Basal Cells               87
+  Ciliated Cells            75
+  Dendritic Cells           224
+  Fibroblasts               19
+  Macrophages               1664
+  Mast Cells                19
+  Monocytes                 504
+  Plasma Cells              656
+  T/NKT Cells               116
+
+ipf04:
+  AT2 Cells                 1692
+  Ciliated Cells            111
+  Club Cells                101
+  Dendritic Cells           227
+  Endothelial Cells         64
+  Fibroblasts               134
+  Macrophages               2939
+  Plasma Cells              40
+
+hp01:
+  AT1 Cells                 49
+  AT2 Cells                 482
+  B Cells                   41
+  Ciliated Cells            73
+  Dendritic Cells           97
+  Endothelial Cells         34
+  Fibroblasts               86
+  Macrophages               573
+  Mast Cells                15
+  Monocytes                 836
+  Plasma Cells              206
+  T/NKT Cells               300
+
+ssc_ild01:
+  AT1 Cells                 46
+  AT2 Cells                 761
+  Basal Cells               201
+  Ciliated Cells            213
+  Dendritic Cells           1755
+  Endothelial Cells         104
+  Macrophages               524
+  Monocytes                 1335
+  Plasma Cells              123
+
+myositis_ild01:
+  AT2 Cells                 288
+  Basal Cells               426
+  Ciliated Cells            647
+  Club Cells                1233
+  Dendritic Cells           495
+  Endothelial Cells         70
+  Fibroblasts               93
+  Macrophages               2703
+  Mast Cells                227
+  Monocytes                 623
+  T/NKT Cells               170
+
+ssc_ild02:
+  AT1 Cells                 549
+  AT2 Cells                 1816
+  Basal Cells               25
+  Ciliated Cells            70
+  Dendritic Cells           47
+  Endothelial Cells         49
+  Macrophages               2350
+  Monocytes                 1277
+  Plasma Cells              58
+  T/NKT Cells               134
+
+cryo:
+  AT1 Cells                 67
+  AT2 Cells                 179
+  Ciliated Cells            18
+  Club Cells                101
+  Dendritic Cells           128
+  Endothelial Cells         228
+  Fibroblasts               76
+  Macrophages               230
+  Mast Cells                75
+  Smooth Muscle Cells       35
+  T/NKT Cells               380
+
+=== Merging annotated objects ===
+Warning: Different features in new layer data than already exists for scale.data
+Transposing data matrix
+Using automatic lambda estimation
+Thetas: 2
+Initializing state using k-means centroids initialization
+Initializing centroids
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 1/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 2/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 3/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 4/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 5/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 6/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 7/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 8/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 9/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony converged after 9 iterations
+Warning: The default method for RunUMAP has changed from calling Python UMAP via reticulate to the R-native UWOT using the cosine metric
+To use Python UMAP via reticulate, set umap.method to 'umap-learn' and metric to 'correlation'
+This message will be shown once per session
+10:49:22 UMAP embedding parameters a = 0.9922 b = 1.112
+10:49:22 Read 79472 rows and found 31 numeric columns
+10:49:22 Using Annoy for neighbor search, n_neighbors = 30
+10:49:22 Building Annoy index with metric = cosine, n_trees = 50
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+10:49:29 Writing NN index file to temp file /tmp/RtmpY36dOT/file21c93c9cbf877
+10:49:29 Searching Annoy index using 1 thread, search_k = 3000
+10:49:54 Annoy recall = 100%
+10:49:54 Commencing smooth kNN distance calibration using 1 thread with target n_neighbors = 30
+10:49:56 Initializing from normalized Laplacian + noise (using RSpectra)
+10:50:02 Commencing optimization for 200 epochs, with 3745288 positive edges
+10:50:02 Using rng type: pcg
+Using method 'umap'
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+10:50:35 Optimization finished
+Merged object saved: ipf/Reyfman2019/cache_v2_all_annotated.rds
+
+=== All-sample summary ===
+Total cells: 79472
+
+        Cryo        Donor           HP          IPF Myositis-ILD      SSc-ILD 
+        1517        43136         2792        13615         6975        11437 
+
+        Macrophages           AT2 Cells     Dendritic Cells           Monocytes 
+              22786               21943                7538                7108 
+         Club Cells           AT1 Cells      Ciliated Cells         T/NKT Cells 
+               4961                4164                2455                2195 
+       Plasma Cells   Endothelial Cells         Basal Cells         Fibroblasts 
+               1622                1538                 984                 935 
+            B Cells          Mast Cells Smooth Muscle Cells 
+                574                 536                 133 
+null device 
+          1 
+null device 
+          1 
+
+=== Subsetting to Donor + IPF ===
+10:59:09 UMAP embedding parameters a = 0.9922 b = 1.112
+10:59:09 Read 56751 rows and found 31 numeric columns
+10:59:09 Using Annoy for neighbor search, n_neighbors = 30
+10:59:09 Building Annoy index with metric = cosine, n_trees = 50
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+10:59:13 Writing NN index file to temp file /tmp/RtmpY36dOT/file21c93c34da3e2c
+10:59:13 Searching Annoy index using 1 thread, search_k = 3000
+10:59:30 Annoy recall = 100%
+10:59:30 Commencing smooth kNN distance calibration using 1 thread with target n_neighbors = 30
+10:59:31 Initializing from normalized Laplacian + noise (using RSpectra)
+10:59:35 Commencing optimization for 200 epochs, with 2683152 positive edges
+10:59:35 Using rng type: pcg
+Using method 'umap'
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+10:59:58 Optimization finished
+IPF+Donor cells: 56751
+
+Donor   IPF 
+43136 13615 
+
+          AT2 Cells         Macrophages     Dendritic Cells          Club Cells 
+              18417               16406                5016                3627 
+          AT1 Cells           Monocytes      Ciliated Cells        Plasma Cells 
+               3453                3037                1434                1235 
+        T/NKT Cells   Endothelial Cells         Fibroblasts             B Cells 
+               1211                1053                 680                 533 
+        Basal Cells          Mast Cells Smooth Muscle Cells 
+                332                 219                  98 
+IPF+Donor object saved: ipf/Reyfman2019/cache_v2_ipf_annotated.rds
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+
+=== Done ===
+Outputs in: ipf/figures_Reyfman2019_v2

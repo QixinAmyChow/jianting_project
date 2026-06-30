@@ -1,0 +1,210 @@
+Loading required package: SeuratObject
+Loading required package: sp
+
+Attaching package: ‘SeuratObject’
+
+The following objects are masked from ‘package:base’:
+
+    intersect, t
+
+Loading required package: Rcpp
+• This is Harmony2 version 2.0.5
+• Read the guide: run vignette("quickstart", package="harmony")
+• Get help: Visit the website at <https://korsunskylab.github.io/harmony2/> and
+report issues on <https://github.com/immunogenomics/harmony/issues>
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Loading cached pre-harmony object...
+=== Harmony integration ===
+Transposing data matrix
+Using automatic lambda estimation
+Thetas: 2
+Initializing state using k-means centroids initialization
+Initializing centroids
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 1/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 2/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 3/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 4/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 5/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 6/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 7/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 8/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 9/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 10/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+=== Clustering ===
+Warning: The default method for RunUMAP has changed from calling Python UMAP via reticulate to the R-native UWOT using the cosine metric
+To use Python UMAP via reticulate, set umap.method to 'umap-learn' and metric to 'correlation'
+This message will be shown once per session
+22:55:39 UMAP embedding parameters a = 0.9922 b = 1.112
+22:55:39 Read 79472 rows and found 31 numeric columns
+22:55:39 Using Annoy for neighbor search, n_neighbors = 30
+22:55:39 Building Annoy index with metric = cosine, n_trees = 50
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+22:55:45 Writing NN index file to temp file /tmp/RtmpYTQa70/file1fe2f8294c5e08
+22:55:45 Searching Annoy index using 1 thread, search_k = 3000
+22:56:10 Annoy recall = 100%
+22:56:10 Commencing smooth kNN distance calibration using 1 thread with target n_neighbors = 30
+22:56:12 Initializing from normalized Laplacian + noise (using RSpectra)
+22:56:18 Commencing optimization for 200 epochs, with 3708320 positive edges
+22:56:18 Using rng type: pcg
+Using method 'umap'
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+22:56:50 Optimization finished
+Clusters: 22
+=== Finding cluster markers ===
+Markers saved: ipf/Reyfman2019/reyfman_cluster_markers.csv
+Auto-annotation:
+  Cluster 0 -> AT2 Cells
+  Cluster 1 -> Macrophages
+  Cluster 2 -> Monocytes
+  Cluster 3 -> AT1 Cells
+  Cluster 4 -> Monocytes
+  Cluster 5 -> Basal Cells
+  Cluster 6 -> T/NKT Cells
+  Cluster 7 -> Ciliated Cells
+  Cluster 8 -> AT2 Cells
+  Cluster 9 -> Monocytes
+  Cluster 10 -> Endothelial Cells
+  Cluster 11 -> Plasma Cells
+  Cluster 12 -> Dendritic Cells
+  Cluster 13 -> Macrophages
+  Cluster 14 -> Fibroblasts
+  Cluster 15 -> Mast Cells
+  Cluster 16 -> B Cells
+  Cluster 17 -> T/NKT Cells
+  Cluster 18 -> Endothelial Cells
+  Cluster 19 -> AT1 Cells
+  Cluster 20 -> Plasma Cells
+  Cluster 21 -> Plasma Cells
+All-sample object saved: ipf/Reyfman2019/cache_reyfman_all_annotated.rds
+Warning message:
+In grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y,  :
+  for 'All samples — condition' in 'mbcsToSbcs': - substituted for — (U+2014)
+null device 
+          1 
+Warning message:
+In grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y,  :
+  for 'All samples — cell type' in 'mbcsToSbcs': - substituted for — (U+2014)
+null device 
+          1 
+=== Subsetting to Donor + IPF ===
+23:08:51 UMAP embedding parameters a = 0.9922 b = 1.112
+23:08:51 Read 56751 rows and found 31 numeric columns
+23:08:51 Using Annoy for neighbor search, n_neighbors = 30
+23:08:51 Building Annoy index with metric = cosine, n_trees = 50
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+23:08:56 Writing NN index file to temp file /tmp/RtmpYTQa70/file1fe2f8150a7085
+23:08:56 Searching Annoy index using 1 thread, search_k = 3000
+23:09:12 Annoy recall = 100%
+23:09:13 Commencing smooth kNN distance calibration using 1 thread with target n_neighbors = 30
+23:09:14 Initializing from normalized Laplacian + noise (using RSpectra)
+23:09:18 Commencing optimization for 200 epochs, with 2654464 positive edges
+23:09:18 Using rng type: pcg
+Using method 'umap'
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+23:09:42 Optimization finished
+IPF+Donor subset: 56751 cells
+
+Donor   IPF 
+43136 13615 
+
+        AT1 Cells         AT2 Cells           B Cells       Basal Cells 
+             2636             22906               416              1189 
+   Ciliated Cells   Dendritic Cells Endothelial Cells       Fibroblasts 
+              947               696              1234               445 
+      Macrophages        Mast Cells         Monocytes      Plasma Cells 
+            15894               310              7375              1335 
+      T/NKT Cells 
+             1368 
+IPF+Donor object saved: ipf/Reyfman2019/cache_reyfman_ipf_annotated.rds
+null device 
+          1 
+Warning message:
+In grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y,  :
+  for 'Cell types — Donor + IPF' in 'mbcsToSbcs': - substituted for — (U+2014)
+null device 
+          1 
+null device 
+          1 
+=== Done ===
+Outputs in: ipf/figures_Reyfman2019
